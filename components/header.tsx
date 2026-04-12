@@ -41,18 +41,18 @@ export function Header() {
         <div className="container-grid relative z-10">
           <div
             className={cn(
-              "flex h-20 items-center justify-between border-b lg:h-[88px]",
+              "flex h-20 items-center justify-between border-b lg:h-[96px]",
               solid ? "border-stone-200/80" : "border-white/20"
             )}
           >
             <div className="flex items-center gap-12 xl:gap-16">
-              <Link href="/" aria-label="Homepage" className="flex items-center transition-opacity duration-300 hover:opacity-80">
+              <Link href="/" aria-label="Homepage" className="flex shrink-0 items-center transition-opacity duration-300 hover:opacity-80">
                 <Image
-                  src="/logo-enetic-transparent.png"
-                  alt="Enetic Energy Technologies"
-                  width={280}
-                  height={94}
-                  className="h-[82px] w-auto object-contain"
+                  src="/logo-client.png"
+                  alt="Enetic Energy Projects"
+                  width={1024}
+                  height={624}
+                  className="h-[56px] w-auto max-w-[220px] object-contain sm:h-[68px] sm:max-w-[270px] lg:h-[88px] lg:max-w-[500px]"
                   priority
                 />
               </Link>
@@ -123,11 +123,11 @@ export function Header() {
         <div className="container-grid flex h-20 flex-shrink-0 items-center justify-between border-b border-white/10">
           <Link href="/" onClick={() => setOpen(false)} aria-label="Homepage">
             <Image
-              src="/logo-enetic-transparent.png"
-              alt="Enetic Energy Technologies"
-              width={180}
-              height={60}
-              className="h-[52px] w-auto object-contain"
+              src="/logo-client.png"
+              alt="Enetic Energy Projects"
+              width={280}
+              height={170}
+              className="h-[56px] w-auto max-w-[210px] object-contain"
             />
           </Link>
           <button

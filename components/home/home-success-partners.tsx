@@ -16,28 +16,40 @@ const partners = [
     height: 100,
   },
   {
+    name: "Egyptian Electricity Holding Co.",
+    src: "/partners/logo-egypt-electricity-clean.png",
+    width: 120,
+    height: 120,
+  },
+  {
     name: "Heidelberg Materials",
     src: "/partners/logo-heidelberg-clean.png",
     width: 180,
     height: 70,
   },
   {
-    name: "ADVEC",
-    src: "/partners/logo-advec-clean.png",
-    width: 180,
+    name: "Siemens Energy",
+    src: "/partners/logo-siemens-energy-clean.png",
+    width: 190,
+    height: 58,
+  },
+  {
+    name: "Hitachi Energy",
+    src: "/partners/logo-hitachi-energy-clean.png",
+    width: 190,
     height: 58,
   },
   {
     name: "ENOWA · NEOM",
     src: "/partners/logo-enowa-clean.png",
-    width: 200,
+    width: 190,
     height: 80,
   },
   {
-    name: "Hitachi Energy",
-    src: "/partners/logo-hitachi-energy-clean.png",
-    width: 200,
-    height: 58,
+    name: "HD Hyundai Electric",
+    src: "/partners/logo-hyundai-hd-clean.png",
+    width: 190,
+    height: 66,
   },
   {
     name: "Renergy Egypt Group Partners",
@@ -46,16 +58,58 @@ const partners = [
     height: 110,
   },
   {
-    name: "HD Hyundai Electric",
-    src: "/partners/logo-hyundai-hd-clean.png",
-    width: 200,
-    height: 66,
+    name: "MEMICO",
+    src: "/partners/logo-memico-clean.png",
+    width: 110,
+    height: 110,
   },
   {
     name: "Eko Atlantic",
     src: "/partners/logo-eko-atlantic-clean.png",
     width: 110,
     height: 110,
+  },
+  {
+    name: "ADVEC",
+    src: "/partners/logo-advec-clean.png",
+    width: 180,
+    height: 58,
+  },
+  {
+    name: "Dawood Engineering Consultancy",
+    src: "/partners/logo-dawood-clean.png",
+    width: 130,
+    height: 130,
+  },
+  {
+    name: "INTRO Group Utilities",
+    src: "/partners/logo-intro-group-clean.png",
+    width: 200,
+    height: 60,
+  },
+  {
+    name: "Sieyuan",
+    src: "/partners/logo-sieyuan-clean.png",
+    width: 220,
+    height: 70,
+  },
+  {
+    name: "Alsadara",
+    src: "/partners/logo-alsadara-clean.png",
+    width: 160,
+    height: 80,
+  },
+  {
+    name: "SNC-Lavalin",
+    src: "/partners/logo-snc-lavalin-clean.png",
+    width: 160,
+    height: 100,
+  },
+  {
+    name: "Elsewedy Electric T&D",
+    src: "/partners/logo-elsewedy-clean.png",
+    width: 220,
+    height: 70,
   },
 ];
 
@@ -64,19 +118,20 @@ function PartnerCard({ partner }: { partner: (typeof partners)[0] }) {
     <div
       className="
         group relative flex
-        h-40 w-full
+        h-36 w-full
         cursor-pointer flex-col
         items-center justify-center
-        gap-3 overflow-hidden
+        gap-2.5 overflow-hidden
         rounded-2xl border border-stone-200/70
-        bg-white px-5 shadow-sm
+        bg-white px-4 shadow-sm
         transition-all duration-300
         hover:-translate-y-1.5
         hover:border-[#00b4d8]/40
         hover:shadow-xl hover:shadow-[#00b4d8]/10
+        sm:h-40
       "
     >
-      {/* Hover glow from top */}
+      {/* Hover glow */}
       <div
         className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         style={{
@@ -85,22 +140,22 @@ function PartnerCard({ partner }: { partner: (typeof partners)[0] }) {
         }}
       />
 
-      {/* Top accent bar on hover */}
+      {/* Top accent bar */}
       <div className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 rounded-full bg-gradient-to-r from-[#00b4d8] via-[#00b4d8] to-transparent transition-transform duration-500 group-hover:scale-x-100" />
 
-      {/* Logo — mix-blend-mode strips white JPG/PNG backgrounds */}
-      <div className="relative flex h-24 w-full items-center justify-center px-3">
+      {/* Logo */}
+      <div className="relative flex h-20 w-full items-center justify-center px-2">
         <Image
           src={partner.src}
           alt={partner.name}
           width={partner.width}
           height={partner.height}
-          className="max-h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          className="max-h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
         />
       </div>
 
       {/* Name */}
-      <span className="relative text-center text-[10px] font-semibold uppercase tracking-[0.18em] text-stone-400 transition-colors duration-300 group-hover:text-[#00b4d8]">
+      <span className="relative line-clamp-2 text-center text-[9px] font-semibold uppercase leading-tight tracking-[0.15em] text-stone-400 transition-colors duration-300 group-hover:text-[#00b4d8]">
         {partner.name}
       </span>
     </div>
@@ -115,7 +170,7 @@ export function HomeSuccessPartners() {
       {/* Bottom accent */}
       <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#00b4d8]/50 to-transparent" />
 
-      {/* Subtle dot grid */}
+      {/* Dot grid */}
       <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
@@ -126,19 +181,18 @@ export function HomeSuccessPartners() {
       />
 
       <div className="container-grid relative">
-        {/* ── Section Header ── */}
-        <div className="mb-16 text-center">
+        {/* ── Header ── */}
+        <div className="mb-14 text-center">
           <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.35em] text-[#00b4d8]">
             Trusted By Industry Leaders
           </p>
-          <h2 className="font-display text-4xl font-bold tracking-tight text-[#0b1721] lg:text-5xl">
+          <h2 className="font-display text-3xl font-bold tracking-tight text-[#0b1721] sm:text-4xl lg:text-5xl">
             Our Success Partners
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-stone-500">
-            We are proud to have collaborated with world-class organizations
-            that share our vision for future-ready energy infrastructure.
+            Proud to collaborate with world-class organizations that share our
+            vision for future-ready energy infrastructure.
           </p>
-
           {/* Decorative divider */}
           <div className="mx-auto mt-6 flex items-center justify-center gap-2">
             <div className="h-px w-10 bg-[#00b4d8]/30" />
@@ -151,19 +205,15 @@ export function HomeSuccessPartners() {
           </div>
         </div>
 
-        {/* ── Partners Grid: 3 columns on md+, 2 on sm, 1 on xs ── */}
-        <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
+        {/* ── Grid: 2 cols mobile → 3 cols tablet → 4 cols desktop → 5 cols xl ── */}
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 lg:gap-5 xl:grid-cols-5">
           {partners.map((partner) => (
             <PartnerCard key={partner.name} partner={partner} />
           ))}
-          {/* Last item: centered if odd count */}
-          {partners.length % 4 !== 0 && (
-            <div className="hidden xl:block" />
-          )}
         </div>
 
         {/* ── Divider ── */}
-        <div className="my-14 flex items-center gap-4">
+        <div className="my-12 flex items-center gap-4">
           <div className="h-px flex-1 bg-gradient-to-r from-transparent to-stone-200" />
           <div className="flex gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-[#00b4d8]/40" />
@@ -173,10 +223,10 @@ export function HomeSuccessPartners() {
           <div className="h-px flex-1 bg-gradient-to-l from-transparent to-stone-200" />
         </div>
 
-        {/* ── Stats Strip ── */}
-        <div className="flex flex-wrap items-center justify-center gap-10 md:gap-24">
+        {/* ── Stats ── */}
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-20">
           {[
-            { value: "9+", label: "Global Partners" },
+            { value: "18+", label: "Global Partners" },
             { value: "100%", label: "Client Satisfaction" },
             { value: "50+", label: "Joint Projects" },
           ].map((stat, i) => (
