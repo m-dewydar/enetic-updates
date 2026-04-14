@@ -1,0 +1,871 @@
+=== PAGE 1 ===
+COMPANY PROFILE
+for energy projects
+Prepared by: Mohamed Shafey
+Date : 30-09-2025
+16 Building, Street No. 288, New Maadi, Cairo
++2-01120085337
+Mohamed.Shafey@enetic-eg.com
+
+
+=== PAGE 2 ===
+Enetic is a power systems consultancy delivering advanced
+engineering, design, and advisory services across high- and
+medium-voltage networks. Our expertise spans substation
+design, grid studies, testing and commissioning support, and
+industrial power systems. With a strong focus on green energy
+integration, microgrid solutions, and smart grid connectivity, we
+support clients in building reliable, efficient, and future-ready
+power infrastructure
+
+
+=== PAGE 3 ===
+3
+3
+Enetic Key Qualities Highlights
+v Leading grid integration designer for Egypt’s green energy projects.
+v Delivered grid impact/connection studies for Siemens, Hitachi, GE, and major developers (Intro,
+Infinity, Yellow Door, Taqa, Scatec, etc.).
+v Exclusive consultant to Egypt’s largest oil & gas producer (Apache–Khalda).
+v EETC consultant during operation of the world’s largest PV park at the contract date.
+v Advisor for Egypt’s first gas tri-generation projects.
+v Consultant to top industrials: SANMAR, Heidelberg Materials, others.
+v Delivered 30+ high-voltage substation design packages.
+v Regional presence: Egypt, Saudi Arabia, Oman, Jordan, Nigeria, Zimbabwe, Burkina Faso, Liberia,
+etc.
+v Expertise across: green energy integration, energy efficiency, industrial power quality, mobility
+networks, oil & gas, CO₂ reduction, microgrids, HV networks, and C&I/domestic studies.
+v Active contributor to energy sector knowledge-sharing and innovation.
+
+
+=== PAGE 4 ===
+4
+Mega Power Plants
+Heavy Industries
+Oil & Gas
+Utility Scale Plants
+KSA Digital City
+H.V Networks
++30 Energy
+Project Start Up
+4
+Trusted by
+Industry Leaders
+(OEMs)
+Full Project Lifecycle
+Experience
+Techno-economic
+Thinking
+Hands-On
+Experience
++ 25 P.O. OEM
+Consultant
++15 Developer
+Consultant
++55 Power Loss
+Troubleshooting
+17 MW WHR turbine -
+66 kV Utility
+12 MW CO-Gen –
+66kV
+COP27 15 MW PV
+22kV
+SINMAR 8 Mic.
+Turbines Connection
+to 220 kV Utility
+Enetic Key Qualities In numbers
+
+
+=== PAGE 5 ===
+Project References
+5
+for energy projects
+
+
+=== PAGE 6 ===
+3GW HVDC Link Egypt-KSA,
+Badr 500kV Converter station
+6
+•
+Configuration
+of
+Protection
+Systems for the Exisiting 500kV
+Substation and Converter Station.
+•
+Preparation of configuration files
+for 500 kV AC side Protection
+relays/BCUs .
+•
+Development
+of
+CID
+files
+(Configuration
+&
+Interoperability
+Description)
+files
+for
+selected
+relays/BCUs.
+•
+Configuration of operational logic
+diagrams for Bay Control Units
+(BCUs).
+Scope : Contractor Engineer
+Client :
+Consultant :
+
+
+=== PAGE 7 ===
+SCATEC 100 MW GREEN
+HYDROGEN PROJECT
+7
+Client:
+Consultant:
+Scope of work
+•
+220/22
+kV
+System
+Power
+System Studies
+•
+Protection Coordination Studies
+for M.V and L.V SWGs of the
+Electrolyzers supply.
+Scope : Contractor Engineer
+
+
+=== PAGE 8 ===
+Cairo West 550/220 kV
+750 MVA Transformer
+8
+Client:
+Owner:
+Egyptian Electricity Production Company
+Engineering Calculations
+Conductor sizing (IEEE 605 for aluminum, IEC
+61597 for AAAC)
+Mechanical loading analysis (dead load, wind
+load, electrodynamic forces)
+Drawing and Design Package
+Plan and section views of the new AIS tubular
+system
+Detailed
+installation
+drawings
+(supports,
+brackets, anchor points)
+Conductor layout and termination details with
+transformers/switchgear
+Bill of Quantities (BOQ)
+Full
+component
+list
+including
+conductors,
+supports, insulators, and accessories
+Scope : Contractor Engineer
+
+
+=== PAGE 9 ===
+LEKELA 250MW WIND
+FARM 220/33kV S\S
+9
+Client:
+Consultant:
+Scope of work
+•
+High voltage System Secondary
+Design Package
+•
+H.V.S.
+Earthing
+Network
+Testing and handing over to
+Tractebel engie
+•
+Mechanical interlocking System
+Design and Supply.
+Scope : Contractor Engineer
+
+
+=== PAGE 10 ===
+ALGERIA - CAP DIJNET
+220/11 kV S\S PROJECT
+10
+Client:
+Owner:
+Scope of work
+•
+High
+Voltage
+and
+Medium
+Voltage
+Network
+Protective
+relays setting Studies.
+Scope : Contractor Engineer
+
+
+=== PAGE 11 ===
+KING ABDULLAH
+FINANCIAL DISTRICT
+11
+OWNER:
+Main Consultant:
+Scope of work
+•
+Providing
+Power
+system
+Studies
+and
+Protection
+Coordination studies for KAFD
+Project
+and
+develop
+the
+rectification Plan for the M.V
+and L.V Electrical Network.
+Scope : Contractor Engineer
+
+
+=== PAGE 12 ===
+ALEXANDRIA ABU QIR
+URBAN RAIL PROJECT
+12
+Power System Studies
+220 kV & 22 kV load flow study
+Voltage drop analysis
+Short-circuit study
+Power Quality Studies
+AC harmonic study (THD assessment at
+buses and POCC)
+Ferro-resonance
+study
+under
+different
+operating conditions
+Auxiliary System Sizing Studies
+LV
+AC/DC
+system
+sizing
+(batteries,
+chargers, UPS)
+LV & MV cable sizing
+Scope : Contractor Engineer
+Client:
+Owner:
+
+
+=== PAGE 13 ===
+TABUK 22 GW SOLAR
+POWER PLANTS
+13
+OWNER:
+Main Consultant:
+Scope of work
+•
+providing
+the
+conceptual
+Design of the interconnection
+AC High Voltage Substations
+for the Pre-Development Stage
+for each of the Six PV Parks
+which will be connected to the
+HVDC Backbone of Neom .
+Scope : Pre-Development Stage High Voltage Consultant
+
+
+=== PAGE 14 ===
+BENBAN 2000 MW
+SOLAR POWER PLANT
+14
+Client:
+Offtaker:
+Scope of work
+•
+Power Quality Monitoring
+•
+Metering
+System
+Analysis
+and Monitoring
+•
+Invoicing
+System
+Analysis
+and Monitoring
+•
+Capacity
+Building
+for
+the
+Operation Team
+•
+Preparing
+the
+relevant
+checklists and forms
+•
+Local
+Monitoring
+Center
+Operation Check and support
+Scope : Offtaker Consultant for 2 years
+
+
+=== PAGE 15 ===
+Nigeria - Eko Atlantic City
+132 kV Power Grid
+15
+Client:
+Owner:
+•
+Secondary
+system
+design
+Package
+for
+the
+132
+kV
+substations
+•
+Interfacing and documentation
+for LV power and control cables
+(layouts,
+BOQ,
+terminations,
+ampacity/voltage drop).
+•
+Protection relay settings, load
+flow and short-circuit studies,
+and
+coordination
+for
+reliable
+operation.
+Scope : Contractor Engineer
+
+
+=== PAGE 16 ===
+Al Razak 25 MW Oil &
+Gas Field Micro Grid
+16
+Client
+Techno-Economic Assessment for Different
+Micro Grid Solutions
+Assessment of Grid Solutions
+•
+Centralized
+vs.
+decentralized
+grid
+architectures
+•
+Conventional
+vs.
+renewable
+integration
+strategies
+Technical Studies
+•
+Load demand and supply balance analysis
+•
+Grid stability and reliability evaluation
+•
+Power quality and losses assessment
+Economic Evaluation
+•
+CAPEX and OPEX comparison of different
+grid options and Life cycle cost analysis
+•
+Return on investment and payback period
+calculations
+Scope : Owner Energy Consultant
+The largest Oil Producer in Egypt
+
+
+=== PAGE 17 ===
+35MW ABO RAWASH WASTE
+TO ENERGY POWER PLANT
+17
+Client:
+Developer:
+Scope of work
+•
+Optimum
+Techno-Economic
+Design
+for
+the
+Evacuation
+Network through the adjacent
+Substations.
+•
+Power
+System
+Studies
+for
+inter-Connection
+with
+the
+Utility.
+Scope : Owner Consultant
+
+
+=== PAGE 18 ===
+SULTAN QABOOS NAVAL
+BASE HARBOUR - OMAN
+18
+OWNER:
+Main Consultant:
+•
+Design
+shore-to-ship
+power
+supply system and EPC tender
+package.
+•
+Develop 11 kV underground cable
+network aligned with Master Plan
+and road layouts.
+•
+Define
+number,
+type,
+and
+locations
+of
+substations
+with
+tender documentation.
+•
+Design
+LV cable
+network
+with
+drawings and specifications.
+•
+Prepare specifications for power
+distribution
+systems
+and
+substations.
+Scope : Sub- Consultant
+The Royal Navy of Oman
+
+
+=== PAGE 19 ===
+ZIMBABWE PV 132/33kV
+SUBSTATION PROJECT
+19
+Client:
+Main Contractor:
+Scope of work
+•
+High
+Voltage
+and
+Medium
+Voltage
+Network
+Protective
+relays setting Studies.
+Scope : Contractor Engineer
+
+
+=== PAGE 20 ===
+GAS GENERATOR C.H.P. 1.5 MW
+OFF-GRID POWER PLANT FOR
+DAMFI FOOD FACTORY
+20
+Developer :
+Factory:
+Scope of work
+•
+Complete Owner Consultation
+Scope
+for
+engine
+system,
+Chilled
+water,
+system,
+and
+Steam system.
+Scope : Owner Consultant
+
+
+=== PAGE 21 ===
+GAS GENERATOR C.H.P. 3 MW ON-
+GRID POWER PLANT FOR BARIQ
+FACTORY
+21
+Developer :
+Factory:
+Scope of work
+•
+Complete Owner Consultation
+Scope
+for
+engine
+system,
+Chilled
+water,
+system,
+and
+Steam system.
+•
+Factory Extension Low voltage
+System Design
+Scope : Owner Consultant
+
+
+=== PAGE 22 ===
+Eni 15 MW SOLAR
+POWER PLANT
+22
+Client:
+Owner:
+Scope of work
+•
+BOP M.V network design and
+power system studies
+•
+Plant Earthing system design
+•
+Plant lightning system design
+Scope : Contractor Engineer
+
+
+=== PAGE 23 ===
+COP27 SUPPLY 5 MW
+SOLAR POWER PLANT
+23
+Developer:
+offtaker:
+Scope of work
+•
+BOP system conceptual design
+and value engineering.
+•
+Interconnection
+studies
+with
+the Electrical Authority.
+Scope : Owner Consultant
+
+
+=== PAGE 24 ===
+SANMAR PETROCHEMICALS
+FACTORY WASTE HEAT
+RECOVERY MICRO TURBINES
+24
+Client:
+Scope of work
+•
+Design, supply , testing and
+commissioning for the solution
+of the reverse power protection
+on the Interconnection
+with
+the high voltage utility solution
+for 8 micro turbines.
+Scope : Solution EPC scope
+
+
+=== PAGE 25 ===
+INTERSTATE PAPER FACTORY
+CO-Generation 12 MW GAS
+TURBINE
+25
+Client:
+Scope of work
+•
+Design, supply , testing and
+commissioning for the solution
+of the reverse power protection
+on the Interconnection with the
+high voltage utility.
+Scope : Solution EPC scope
+
+
+=== PAGE 26 ===
+High Voltage Energy Projects
+2 6
+Gerza 220/66/22 kV
+S\S
+High Voltage System
+Protection & Secondary
+System Design
+Mostakbal City Exten.
+220/22 kV S\S
+High Voltage System
+Protection & Secondary
+System Detailed Design
+Badr 500/220/66/22 kV
+S\S
+Protection System Testing and
+Commissioning
+Toshky 220/66/22 kV
+S\S
+High voltage testing &
+Protection engineers supply
+P R O J E C T S
+for energy projects
+
+
+=== PAGE 27 ===
+High Voltage Energy Projects
+2 7
+Abo Rawash 66/11 kV
+S\S
+High Voltage System
+Protection & Secondary
+System Design
+East Qena
+500/220/66/22 kV S\S
+Testing And Commissioning of
+High Voltage System
+New Capital S1
+500/220/66/22 kV S\S
+Protection System Testing and
+Commissioning
+Housh Eissa
+220/66/22 kV S\S
+High Voltage System
+Protection & Secondary
+System Design
+P R O J E C T S
+for energy projects
+
+
+=== PAGE 28 ===
+High Voltage Energy Projects
+2 8
+Cairo West Power Plant
+Generator Protection Testing
+And Commissioning
+Al Hay Al Motamayz
+220/22 kV S\S
+Testing And Commissioning of
+High Voltage System
+El-Tbeen 66/11/6.6 kV
+S\S
+High Voltage System
+Protection & Secondary
+System Design
+Mansoura , Alameen ,
+El Sadat 220kV S\Ss
+Secondary Engineering
+Serveries
+for energy projects
+
+
+=== PAGE 29 ===
+Oil & Gas and Industrial Projects
+2 9
+MIDOR - MIDELEC Power
+Generation Expansion
+Project
+Turbine Protection System
+Coordination Study
+Turbine Protection Testing
+Team Supplying
+Sonker Oil Tanks Site
+Automatic Voltage Regulator
+Relays Configuration & Testing
+Ezz Steel Factory
+220/30 kV S\S
+Insulation Coordination Study
+& M.V Cable Sizing Study For
+Substation Extension including
+STATCOM & Harmonic Filters
+Network.
+P R O J E C T S
+Testing Equipment Renting
+for energy projects
+
+
+=== PAGE 30 ===
+Mobility Projects
+3 0
+Cairo Metro Line 3 -3B
+66/20 kV S\S
+Banha-Port Said EISs \
+OCs Rehabilitation
+Cairo Metro Line 4 –P1
+220/20 kV S\S
+LRT Supply Extension In
+Bader II & Althawra S\S
+P R O J E C T S
+High voltage Equipment
+Testing Engineers Supply
+High Voltage System
+Protection & power system
+studies
+Signaling, power, and Tele.
+Cables Planning Layout
+High Voltage System
+Protection & Secondary
+system detailed Design
+for energy projects
+
+
+=== PAGE 31 ===
+Key Qualifications
+31
+for energy projects
+
+
+=== PAGE 32 ===
+Energy Projects and
+High Voltage Network
+32
+• Mobility Electrical Systems
+Service Package,
+• Special Studies of Power
+System and Protection
+System,
+• Training Sessions on
+providing all essential
+service,
+• Manpower/Equipment
+Supplying/Hiring.
+• EPC For Protection System
+(Siemens, GE, Alstom, ABB,
+Schneider, NR, Beckwith, ..)
+• Complete Electrical Design
+Package (Primary,
+Secondary, Studies, MEP)
+• Electrical Installation,
+Testing, Commissioning and
+Startup,
+• R&D for manufacturing
+testers used in HV/MV
+Networks.
+
+
+=== PAGE 33 ===
+Oil & Gas and
+Industrial Projects
+33
+• Energy Management
+Solutions.
+• Power Quality Assurance
+Package and Solutions
+• Manpower/Equipment
+Supplying/Hiring,
+• Training Sessions on
+providing all essential
+service.
+• EPC For Protection System
+(Siemens, GE, Alstom, ABB,
+Schneider, NR, Beckwith, ..)
+• Complete Electrical Design
+and Consultation Package.
+• Contracting Service
+Package for Electrical
+Systems (EPC Package),
+• Smart Solutions for the
+problems arising in
+Electrical Networks.
+
+
+=== PAGE 34 ===
+Smart grid and
+Green Energy Projects
+34
+• Contracting and Calibration
+of Smart Metering Systems,
+• Interface with existing
+networks and rehabilitation
+Utilization Studies,
+• Manpower/Equipment
+Supplying/Hiring,
+• Training Sessions on
+providing all essential
+service.
+• Substation Automation
+System (SAS) Design,
+Utilization Package
+• Enhancement of Protection
+System to be compatible
+with Smart Grid / Green
+Energy Needs.
+• Design and Contracting
+Service Package for Electrical
+Systems (Design,
+Installation, Testing  and
+Startup).
+
+
+=== PAGE 35 ===
+FR
+Power System Studies Soft Tools
+35
+
+
+=== PAGE 36 ===
+Protection and Metering Section Software Tools
+36
+for energy projects
+
+
+=== PAGE 37 ===
+Testing Lab
+37
+for energy projects
+
+
+=== PAGE 38 ===
+Testing Lab
+• Testing Lab Equipment
+• 3Ph Secondary Injection Tester –
+“Sverker 900”.
+38
+• CT/VT/CVT analyzer – “ISA -ICT1
+analyzer” Knee Point Measuring
+Capability up to 40 KV.
+• Timing Tester – “ Megger – Egil
+Tester”
+for energy projects
+
+
+=== PAGE 39 ===
+Testing Lab
+• Testing Lab Equipment
+• Primary Injection SMC Raptor
+39
+• Earthing Tester CA6462
+• Power Analyzer CA8334
+for energy projects
+
+
+=== PAGE 40 ===
+Testing Lab
+• Testing Lab Equipment
+• Contact Resistance 600 A – “Megger- DLRO 600”
+40
+• Battery Internal Resistance Tester
+• Load Bank (220 VDC, 100 A) and (48 VDC, 120 A).
+• Transformer Ratio and DC Winding Resistance Tester.
+• Other Testers such as “ Megger insulation resistance
+tester”
+for energy projects
+
+
+=== PAGE 41 ===
+Thank you
+4 1
+for energy projects
+
