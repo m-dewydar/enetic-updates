@@ -818,6 +818,396 @@ video {
 /* old plh classes removed — now using .plh-* */
 
 /* ──────────────────────────────────────────────
+   11b. OUR PEOPLE SECTION (op-* classes)
+─────────────────────────────────────────────── */
+.op-section {
+  background: var(--color-surface);
+  padding: 5rem 0 0;
+  overflow: hidden;
+}
+
+.op-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--enetic-teal);
+  margin: 0 0 0.75rem;
+}
+
+/* Heading wrapper */
+.op-heading-wrap {
+  @apply mx-auto w-full max-w-[1440px] px-6 md:px-10 xl:px-16;
+  margin-bottom: 3rem;
+}
+
+/* ── Draggable track ── */
+.op-track {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  cursor: grab;
+  padding-bottom: 4.5rem;
+}
+.op-track::-webkit-scrollbar { display: none; }
+.op-track--dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.op-list {
+  display: flex;
+  gap: 0;
+  padding-left: clamp(1.5rem, 4vw, 5rem);
+  padding-right: clamp(1.5rem, 4vw, 5rem);
+  width: max-content;
+}
+
+/* ── Portrait card ── */
+.op-card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 1.5rem;
+  user-select: none;
+}
+@media (min-width: 768px) { .op-card { width: 340px; } }
+@media (min-width: 1280px) { .op-card { width: 390px; } }
+
+/* Clickable image wrapper */
+.op-card__img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--color-steel);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+}
+
+.op-card__img {
+  object-fit: cover;
+  transition: transform 0.85s var(--ease-premium);
+}
+.op-card__img-wrap:hover .op-card__img {
+  transform: scale(1.06);
+}
+
+/* Hover overlay with "View Profile" pill */
+.op-card__hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 23, 33, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.4s var(--ease-premium);
+}
+.op-card__img-wrap:hover .op-card__hover-overlay {
+  background: rgba(11, 23, 33, 0.52);
+}
+
+.op-card__view-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.35s var(--ease-premium),
+    transform 0.35s var(--ease-premium);
+}
+.op-card__img-wrap:hover .op-card__view-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+.op-card__view-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
+
+/* Text body */
+.op-card__body {
+  padding: 1.25rem 0 0;
+}
+.op-card__name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--color-ink);
+  margin: 0 0 0.15rem;
+  line-height: 1.2;
+}
+.op-card__position {
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--enetic-teal);
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+}
+.op-card__role-badge {
+  font-size: 0.78rem;
+  color: var(--color-steel);
+  margin: 0 0 0.85rem;
+}
+.op-card__quote {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--color-steel);
+  margin: 0;
+  font-style: italic;
+  max-width: 34ch;
+}
+
+/* ── Profile Modal backdrop ── */
+.op-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  background: rgba(8, 14, 20, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* ── Slide-in profile panel ── */
+.op-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 901;
+  width: min(520px, 100vw);
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #c8d2d8 #f5f1eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.op-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 10;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.25s, border-color 0.25s;
+}
+.op-close-btn:hover {
+  background: rgba(255, 255, 255, 0.28);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.op-close-btn svg {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+/* Portrait header */
+.op-panel__header {
+  flex-shrink: 0;
+}
+.op-panel__portrait {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.op-panel__portrait-img {
+  object-fit: cover;
+  object-position: top center;
+}
+.op-panel__portrait-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(9, 18, 28, 0.92) 0%,
+    rgba(9, 18, 28, 0.45) 45%,
+    transparent 75%
+  );
+}
+.op-panel__header-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 2rem 1.75rem;
+}
+.op-panel__header-role {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 0.4rem;
+}
+.op-panel__header-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 0.4rem;
+  line-height: 1.1;
+}
+.op-panel__header-position {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+}
+
+/* Scrollable body */
+.op-panel__body {
+  flex: 1;
+  padding: 2rem 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Quote */
+.op-panel__quote {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--color-ink);
+  margin: 0 0 1.5rem;
+  font-style: normal;
+  position: relative;
+}
+.op-panel__quote-mark {
+  color: var(--enetic-teal);
+  font-size: 1.4rem;
+  line-height: 0;
+  vertical-align: -0.3em;
+  margin: 0 0.1rem;
+}
+
+.op-panel__divider {
+  height: 1px;
+  background: rgba(15, 23, 33, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.op-panel__section {
+  margin-bottom: 1.5rem;
+}
+
+.op-panel__section-title {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-steel);
+  margin: 0 0 0.65rem;
+}
+
+.op-panel__bio {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--color-steel);
+  margin: 0;
+}
+
+/* Specialty tags */
+.op-panel__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.op-panel__tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  background: rgba(30, 107, 103, 0.09);
+  color: var(--enetic-teal);
+  border: 1px solid rgba(30, 107, 103, 0.2);
+}
+
+/* Meta row */
+.op-panel__meta-row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.op-panel__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.op-panel__meta-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-steel);
+}
+.op-panel__meta-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+/* Footer CTA */
+.op-panel__footer {
+  margin-top: auto;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(15, 23, 33, 0.08);
+}
+.op-panel__linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.8rem 1.75rem;
+  border-radius: 999px;
+  background: #0a66c2;
+  color: #fff;
+  font-size: 0.83rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s var(--ease-premium), transform 0.25s;
+}
+.op-panel__linkedin-btn:hover {
+  background: #0855a3;
+  transform: translateY(-1px);
+}
+.op-panel__linkedin-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* ──────────────────────────────────────────────
    12. PEOPLE CAROUSEL — arup style (full-bleed portrait cards)
 ─────────────────────────────────────────────── */
 .people-carousel-section {

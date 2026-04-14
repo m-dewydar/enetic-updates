@@ -7,6 +7,7 @@ import { HomeIssuesGrid } from "@/components/home/home-issues-grid";
 import { HomeAboutPreview } from "@/components/home/home-about-preview";
 import { CtaBand } from "@/components/cta-band";
 import { HomeSuccessPartners } from "@/components/home/home-success-partners";
+import { HomeOurPeople } from "@/components/home/home-our-people";
 
 export const metadata: Metadata = {
   title: "Enetic | Power Systems Engineering Consultancy",
@@ -29,6 +30,7 @@ export default function HomePage() {
       <HomeWorkShowcase />
       {/* <HomeCapabilitiesGrid /> */}
       <HomeIssuesGrid />
+      <HomeOurPeople />
       <HomeSuccessPartners />
       <CtaBand />
     </main>

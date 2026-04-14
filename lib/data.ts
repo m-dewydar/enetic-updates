@@ -454,32 +454,76 @@ export const homeIdeas = [
 
 export const homePeople = [
   {
-    name: "Lina Fares",
-    role: "Infrastructure Strategist",
-    quote: "I enjoy translating technical pressure into decisions that cities and operators can actually move on.",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
+    name: "Ahmed El-Sayed",
+    role: "Founder & Managing Director",
+    position: "Power Systems Engineer, CEng",
+    quote: "Our mission is to bring world-class power engineering to the projects that matter most — from grid interconnectors to green hydrogen.",
+    bio: "Ahmed leads Enetic's technical delivery and strategic direction. With over 18 years in power systems engineering, he has overseen HV/MV design, protection, and SCADA projects across Egypt, Saudi Arabia, and Sub-Saharan Africa. He holds a CEng designation and is a member of the IET.",
+    specialties: ["Power System Studies", "HV/MV Substation Design", "IEC 61850 SCADA", "Project Leadership"],
+    education: "B.Sc. Electrical Power Engineering, Cairo University · MSc Power Systems, University of Manchester",
+    experience: "18+ years",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
   },
   {
-    name: "Youssef Adel",
-    role: "Transport Consultant",
-    quote: "The best part of the work is improving how people move through a place without making the system harder to understand.",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
-  },
-  {
-    name: "Mariam Nader",
-    role: "Workplace Designer",
-    quote: "We design offices and campuses as ecosystems, not just collections of rooms.",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80"
+    name: "Sara Ibrahim",
+    role: "Senior Protection Engineer",
+    position: "Protection & SCADA Lead",
+    quote: "Every relay setting is a commitment to safety. Getting it right is non-negotiable.",
+    bio: "Sara specialises in protection coordination and IEC 61850 configuration for large-scale substations. She has led protection engineering for HVDC converter stations, wind farm collector substations, and urban metro traction systems throughout Egypt and the Gulf.",
+    specialties: ["Protection Coordination", "Relay Setting Calculations", "IEC 61850 CID/SCD", "FAT & SAT Support"],
+    education: "B.Sc. Electrical Engineering, Alexandria University · IEC 61850 Certified Engineer",
+    experience: "12 years",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
   },
   {
     name: "Karim Soliman",
-    role: "Energy Systems Engineer",
-    quote: "Complex energy projects only become real when phasing, risk, and engineering logic are aligned from day one.",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80"
+    role: "Power Systems Consultant",
+    position: "Grid Studies & Analysis Expert",
+    quote: "A model is only as good as its assumptions. We interrogate both — and that's how we give clients real confidence.",
+    bio: "Karim leads Enetic's power system studies practice. He has performed load flow, short circuit, stability, arc flash, and harmonic studies for utility-scale renewable projects, industrial networks, and urban infrastructure programs across five countries.",
+    specialties: ["Load Flow & Short Circuit", "Harmonic & Power Quality", "Arc Flash Studies", "Grid Stability Analysis"],
+    education: "B.Sc. Electrical Power Engineering, Ain Shams University · MSc Electrical Power Systems, Newcastle University",
+    experience: "14 years",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
+  },
+  {
+    name: "Nour Hassan",
+    role: "Commissioning & Testing Engineer",
+    position: "Site Integration Specialist",
+    quote: "Commissioning is where the design meets reality. My role is to make sure they agree.",
+    bio: "Nour manages pre-commissioning, site acceptance testing, and handover documentation for HV/MV systems. She has commissioned substations and protection systems for solar farms, HVDC links, and urban rail projects, working directly with EPC contractors on site.",
+    specialties: ["Pre-commissioning Planning", "HV Earthing Testing", "SAT Execution", "Punchlist Management"],
+    education: "B.Sc. Electrical Engineering, Helwan University · Certified in HV Testing & Safety (IEEE)",
+    experience: "9 years",
+    image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
+  },
+  {
+    name: "Omar Khalil",
+    role: "Substation Design Engineer",
+    position: "HV Secondary Design Specialist",
+    quote: "Good substation design is invisible — it just works, safely, for decades.",
+    bio: "Omar delivers detailed engineering design packages for high- and medium-voltage substations. His work spans 500kV converter stations, 220kV grid substations, and compact 22kV indoor switchrooms, including earthing networks, SLD packages, and protection panel designs.",
+    specialties: ["HV Secondary Design", "Earthing & Lightning Protection", "SLDs & Panel Layouts", "EPC Tender Packages"],
+    education: "B.Sc. Electrical Engineering, Cairo University · Diploma in HV Electrical Design, IEC Standards",
+    experience: "11 years",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
+  },
+  {
+    name: "Yasmine Farouk",
+    role: "Renewables Integration Engineer",
+    position: "Green Energy & Grid Advisory",
+    quote: "The energy transition is the most important engineering challenge of our time. I'm proud to be in the thick of it.",
+    bio: "Yasmine supports solar, wind, and green hydrogen projects from pre-development HV conceptual design through to grid connection approval. She has worked on utility-scale PV parks, HVDC backbone designs, and green hydrogen electrolyzer power supply systems across Egypt, NEOM, and sub-Saharan Africa.",
+    specialties: ["Renewable Grid Integration", "HV Conceptual Design", "Green Hydrogen Power Systems", "Techno-economic Studies"],
+    education: "B.Sc. Electrical Power Engineering, Cairo University · MSc Renewable Energy Systems, KTH Stockholm",
+    experience: "8 years",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80",
+    linkedin: "https://www.linkedin.com/"
   }
 ];
 
