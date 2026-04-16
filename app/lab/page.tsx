@@ -27,7 +27,7 @@ const equipment = [
     model: "ISA-ICT1",
     manufacturer: "ISA",
     description:
-      "Precision analyzer for current and voltage transformers — measures ratio accuracy, polarity, burden, and knee-point voltage across MV and HV instrument transformers.",
+      "Precision analyzer for current and voltage transformers — measures ratio accuracy, polarity, burden, and knee-point voltage up to 40kV across MV and HV instrument transformers.",
     tests: [
       "CT ratio and polarity verification",
       "VT ratio and accuracy class testing",
@@ -37,6 +37,23 @@ const equipment = [
     standard: "IEC 60044 / IEC 61869",
     icon: "🔍",
     image: "/home/capabilities/substation-design.jpeg",
+  },
+  {
+    id: "timing-tester",
+    name: "Circuit Breaker Timing Tester",
+    model: "Egil",
+    manufacturer: "Megger",
+    description:
+      "Breaker analyzer for contact timing, travel, and synchronization tests on HV/MV circuit breakers to verify mechanical performance before energisation.",
+    tests: [
+      "Opening and closing timing measurement",
+      "Pole discrepancy and synchronization checks",
+      "Coil current and trip/close command analysis",
+      "Travel curve and contact bounce analysis",
+    ],
+    standard: "IEC 62271 / IEEE C37.09",
+    icon: "⏱",
+    image: "/home/capabilities/commissioning-better.jpg",
   },
   {
     id: "primary-injection",
@@ -107,6 +124,23 @@ const equipment = [
     image: "/home/capabilities/owners-engineer.jpg",
   },
   {
+    id: "dc-load-bank",
+    name: "DC Load Bank",
+    model: "220VDC 100A / 48VDC 120A",
+    manufacturer: "Multi-brand",
+    description:
+      "Programmable DC load bank for controlled discharge tests of battery banks and DC systems in substations, validating backup autonomy and system stability.",
+    tests: [
+      "Battery discharge capacity verification",
+      "DC bus stability under dynamic loading",
+      "Voltage drop profiling during sustained load",
+      "Autonomy checks for protection and control DC systems",
+    ],
+    standard: "IEEE 1188 / IEC 62485",
+    icon: "🧪",
+    image: "/home/capabilities/power-studies.jpg",
+  },
+  {
     id: "transformer-tester",
     name: "Transformer Ratio & Winding Resistance Tester",
     model: "TTR / DLRO Combo",
@@ -160,6 +194,10 @@ const equipment = [
 ];
 
 const labServices = [
+  {
+    title: "Testing Equipment Renting",
+    desc: "Rental packages for certified HV/MV testing instruments with optional engineer support for field deployment.",
+  },
   {
     title: "Factory Acceptance Testing",
     desc: "On-site relay and panel FAT at manufacturer facilities to validate equipment before shipment to site.",
@@ -234,7 +272,7 @@ export default function TestingLabPage() {
           <div className="lab-intro__body">
             <Reveal delay={0.08}>
               <p>
-                Our testing laboratory carries nine categories of specialised electrical test instruments covering protection relay testing, instrument
+                Our testing laboratory carries eleven categories of specialised electrical test instruments covering protection relay testing, instrument
                 transformer calibration, primary injection, insulation assessment, power quality measurement, and contact resistance analysis.
               </p>
               <p>
@@ -250,7 +288,7 @@ export default function TestingLabPage() {
       <section className="lab-equipment-section">
         <div className="lab-equipment-shell">
           <Reveal className="lab-equipment-header">
-            <p className="lab-equipment-header__eyebrow">Equipment — 9 categories</p>
+            <p className="lab-equipment-header__eyebrow">Equipment — 11 categories</p>
             <h2 className="lab-equipment-header__heading">Test instruments & specifications</h2>
           </Reveal>
 

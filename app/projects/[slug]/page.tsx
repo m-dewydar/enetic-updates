@@ -18,6 +18,13 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
   if (!project) notFound();
 
   const relatedProjects = projects.filter((item) => item.slug !== project.slug).slice(0, 2);
+  const galleryCount = project.gallery.length;
+  const galleryGridClass =
+    galleryCount <= 1
+      ? "grid gap-6 md:grid-cols-1 xl:grid-cols-1"
+      : galleryCount === 2
+      ? "grid gap-6 md:grid-cols-2 xl:grid-cols-2"
+      : "grid gap-6 md:grid-cols-2 xl:grid-cols-3";
 
   return (
     <main>
@@ -44,7 +51,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           <p className="eyebrow">Gallery</p>
           <h2 className="mt-4 font-display text-[2rem] md:text-5xl">A visual narrative of the project.</h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className={galleryGridClass}>
           {project.gallery.map((image, index) => (
             <Reveal
               key={image}

@@ -6,13 +6,14 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "@/lib/data";
 
-const sectors = ["All", "Renewable Energy", "High Voltage Networks", "Urban Mobility", "Oil & Gas", "Infrastructure"];
+const sectors = ["All", "Renewable Energy", "High Voltage Networks", "Urban Mobility", "Oil & Gas", "Industrial", "Infrastructure"];
 
 const sectorMap: Record<string, string[]> = {
   "Renewable Energy": ["Renewable Energy"],
   "High Voltage Networks": ["High Voltage Networks"],
   "Urban Mobility": ["Urban Mobility"],
   "Oil & Gas": ["Oil & Gas"],
+  Industrial: ["Industrial"],
   "Infrastructure": ["Infrastructure", "Urban Infrastructure"],
 };
 

@@ -990,6 +990,8 @@ video {
   background: #fff;
   overflow-y: auto;
   overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
   scrollbar-color: #c8d2d8 #f5f1eb;
   display: flex;

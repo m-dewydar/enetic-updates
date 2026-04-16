@@ -609,17 +609,414 @@ export const projects: Project[] = [
     relatedServiceSlugs: ["energy-transition"]
   },
   {
+    slug: "gerza-220-66-22-substation",
+    title: "Gerza 220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Protection and secondary system design for the Gerza high-voltage substation project.",
+    intro: "Enetic delivered high-voltage protection and secondary engineering services for the Gerza 220/66/22kV substation, including detailed design documentation and relay/control architecture aligned with utility standards.",
+    heroImage: "/projects/pdf-crops/page26_card1.jpg",
+    gallery: ["/projects/pdf-crops/page26_card1.jpg"],
+    challenge: "The project required a coherent secondary design package that supports safe operation across multiple voltage levels while remaining compatible with utility protection philosophies.",
+    solution: "We developed a full protection and secondary design package covering interface logic, relay application, and detailed engineering deliverables for implementation.",
+    impact: "The deliverables enabled structured implementation and reduced design risk during procurement and execution phases.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Scope", value: "Protection + Secondary design" },
+      { label: "Role", value: "Engineering consultant" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "mostakbal-city-extension-220-22",
+    title: "Mostakbal City Extension 220/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Detailed protection and secondary system design for the Mostakbal City extension substation.",
+    intro: "Enetic provided detailed design services for the Mostakbal City Extension 220/22kV substation, focusing on HV protection architecture and secondary engineering documents for execution and testing.",
+    heroImage: "/projects/pdf-crops/page26_card2.jpg",
+    gallery: ["/projects/pdf-crops/page26_card2.jpg"],
+    challenge: "Fast-track urban expansion required detailed, execution-ready design packages with minimal coordination gaps between engineering and site teams.",
+    solution: "We issued detailed secondary design documents and protection logic packages to support procurement, installation, and commissioning workflows.",
+    impact: "The package improved readiness for construction and reduced late-stage rework in the secondary systems.",
+    metrics: [
+      { label: "Voltage level", value: "220/22 kV" },
+      { label: "Project type", value: "Urban grid extension" },
+      { label: "Scope", value: "Detailed secondary design" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "badr-500-220-66-22-commissioning",
+    title: "Badr 500/220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Badr, Egypt",
+    summary: "Protection system testing and commissioning services for the Badr multi-voltage substation.",
+    intro: "Enetic supported testing and commissioning activities for protection systems at the Badr 500/220/66/22kV substation, validating relay operation, control logic, and interlock sequences.",
+    heroImage: "/projects/pdf-crops/page26_card3.jpg",
+    gallery: ["/projects/pdf-crops/page26_card3.jpg"],
+    challenge: "Commissioning at extra-high voltage required strict sequencing, accurate test procedures, and zero-tolerance for protection misoperation.",
+    solution: "We executed structured protection testing plans, verified operational logic, and supported commissioning closeout documentation.",
+    impact: "The commissioning program improved energisation readiness and strengthened operational reliability from day one.",
+    metrics: [
+      { label: "Voltage level", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "Protection T&C" },
+      { label: "Role", value: "Commissioning support" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "toshky-220-66-22-testing",
+    title: "Toshky 220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "High-voltage testing activities and protection engineer supply for Toshky substation works.",
+    intro: "Enetic supported the Toshky 220/66/22kV substation with high-voltage testing services and specialist protection engineering manpower to support site execution milestones.",
+    heroImage: "/projects/pdf-crops/page26_card4.jpg",
+    gallery: ["/projects/pdf-crops/page26_card4.jpg"],
+    challenge: "The site required timely mobilisation of specialised resources while maintaining strict testing quality and safety procedures.",
+    solution: "We supplied experienced protection engineers and delivered structured HV testing support aligned with commissioning schedules.",
+    impact: "The approach accelerated site readiness and reduced execution bottlenecks during critical commissioning phases.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Scope", value: "HV testing + engineer supply" },
+      { label: "Role", value: "Testing partner" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "abo-rawash-66-11-substation-design",
+    title: "Abo Rawash 66/11kV Substation",
+    sector: "High Voltage Networks",
+    location: "Abo Rawash, Egypt",
+    summary: "Protection and secondary system design for the Abo Rawash 66/11kV substation.",
+    intro: "Enetic delivered protection and secondary engineering services for the Abo Rawash 66/11kV substation, supporting secure operation and grid integration.",
+    heroImage: "/projects/pdf-crops/page27_card1.jpg",
+    gallery: ["/projects/pdf-crops/page27_card1.jpg"],
+    challenge: "Integrating 66/11kV infrastructure required robust protection selectivity and clear secondary system interfaces.",
+    solution: "We prepared the secondary design package and protection architecture to support compliant implementation.",
+    impact: "The design improved maintainability and operational safety for the final installed system.",
+    metrics: [
+      { label: "Voltage level", value: "66/11 kV" },
+      { label: "Scope", value: "Protection + Secondary design" },
+      { label: "Role", value: "Contractor support" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "east-qena-500-220-66-22-tc",
+    title: "East Qena 500/220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Qena, Egypt",
+    summary: "Testing and commissioning of high-voltage systems for the East Qena substation project.",
+    intro: "Enetic supported high-voltage testing and commissioning for East Qena 500/220/66/22kV substation works, covering key protection and control verification steps.",
+    heroImage: "/projects/pdf-crops/page27_card2.jpg",
+    gallery: ["/projects/pdf-crops/page27_card2.jpg"],
+    challenge: "Multi-voltage commissioning demanded tight coordination between test teams, switching operations, and protection specialists.",
+    solution: "We executed staged testing procedures and protection validation workflows aligned with energisation planning.",
+    impact: "Commissioning progress improved with lower risk of delays or protection-related defects.",
+    metrics: [
+      { label: "Voltage level", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "HV T&C" },
+      { label: "Location", value: "East Qena" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "new-capital-s1-500-220-66-22",
+    title: "New Capital S1 500/220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "New Administrative Capital, Egypt",
+    summary: "Protection system testing and commissioning for New Capital S1 high-voltage substation.",
+    intro: "Enetic provided protection system testing and commissioning support for the New Capital S1 substation, ensuring relay and secondary systems were validated before operation.",
+    heroImage: "/projects/pdf-crops/page27_card3.jpg",
+    gallery: ["/projects/pdf-crops/page27_card3.jpg"],
+    challenge: "A strategic transmission node required high confidence in protection operation and system handover quality.",
+    solution: "We performed protection testing, functional checks, and commissioning verification against project requirements.",
+    impact: "The project achieved stronger operational confidence and smoother pre-energisation closeout.",
+    metrics: [
+      { label: "Voltage level", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "Protection T&C" },
+      { label: "Project", value: "New Capital S1" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "housh-eissa-220-66-22-design",
+    title: "Housh Eissa 220/66/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Beheira, Egypt",
+    summary: "Protection and secondary system design services for the Housh Eissa substation.",
+    intro: "Enetic supported the Housh Eissa 220/66/22kV project with high-voltage protection and secondary system design services tailored to utility requirements.",
+    heroImage: "/projects/pdf-crops/page27_card4.jpg",
+    gallery: ["/projects/pdf-crops/page27_card4.jpg"],
+    challenge: "Delivering design consistency across protection, control, and interface documentation was essential for execution quality.",
+    solution: "We prepared the protection and secondary design package with coordinated interfaces for implementation teams.",
+    impact: "The project team gained clearer design governance and better execution traceability.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Scope", value: "Secondary design" },
+      { label: "Role", value: "Engineering consultant" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "cairo-west-generator-protection-tc",
+    title: "Cairo West Power Plant Generator Protection",
+    sector: "High Voltage Networks",
+    location: "Cairo, Egypt",
+    summary: "Generator protection testing and commissioning support at Cairo West Power Plant.",
+    intro: "Enetic delivered generator protection testing and commissioning services at Cairo West Power Plant to validate protection performance and operational sequencing.",
+    heroImage: "/projects/pdf-crops/page28_card1.jpg",
+    gallery: ["/projects/pdf-crops/page28_card1.jpg"],
+    challenge: "Generator protection requires high-accuracy testing and strict functional validation to avoid trip risks and availability losses.",
+    solution: "We carried out comprehensive testing routines for generator protection logic and coordinated final commissioning activities.",
+    impact: "The intervention improved reliability confidence in generator protection operation.",
+    metrics: [
+      { label: "Scope", value: "Generator protection T&C" },
+      { label: "Site", value: "Cairo West Power Plant" },
+      { label: "Role", value: "Testing partner" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "al-hay-al-motamayz-220-22-tc",
+    title: "Al Hay Al Motamayz 220/22kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Testing and commissioning of high-voltage systems for Al Hay Al Motamayz substation.",
+    intro: "Enetic provided high-voltage testing and commissioning support for Al Hay Al Motamayz 220/22kV substation systems.",
+    heroImage: "/projects/pdf-crops/page28_card2.jpg",
+    gallery: ["/projects/pdf-crops/page28_card2.jpg"],
+    challenge: "Meeting energisation deadlines required controlled execution of tests across multiple interconnected subsystems.",
+    solution: "We implemented staged commissioning procedures and verification plans for HV and secondary systems.",
+    impact: "Commissioning quality improved with better readiness for operational handover.",
+    metrics: [
+      { label: "Voltage level", value: "220/22 kV" },
+      { label: "Scope", value: "HV T&C" },
+      { label: "Role", value: "Commissioning support" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "el-tbeen-66-11-6-6-design",
+    title: "El-Tbeen 66/11/6.6kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Protection and secondary system design services for El-Tbeen multi-voltage substation.",
+    intro: "Enetic delivered high-voltage protection and secondary engineering for El-Tbeen 66/11/6.6kV substation infrastructure.",
+    heroImage: "/projects/pdf-crops/page28_card3.jpg",
+    gallery: ["/projects/pdf-crops/page28_card3.jpg"],
+    challenge: "The multi-voltage configuration required robust coordination between protection zones and secondary interfaces.",
+    solution: "We developed detailed protection and secondary design packages to ensure selectivity and operational clarity.",
+    impact: "The final design improved system integrity and ease of future maintenance.",
+    metrics: [
+      { label: "Voltage level", value: "66/11/6.6 kV" },
+      { label: "Scope", value: "Protection + Secondary design" },
+      { label: "Project", value: "El-Tbeen S/S" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "mansoura-alameen-el-sadat-220-secondary",
+    title: "Mansoura, Alameen & El Sadat 220kV Substations",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Secondary engineering services for multiple 220kV substation projects across Egypt.",
+    intro: "Enetic provided secondary engineering services for 220kV substations in Mansoura, Alameen, and El Sadat, delivering coordinated design outputs across three locations.",
+    heroImage: "/projects/pdf-crops/page28_card4.jpg",
+    gallery: ["/projects/pdf-crops/page28_card4.jpg"],
+    challenge: "Parallel project delivery demanded consistent standards and reusable engineering frameworks across sites.",
+    solution: "We issued harmonized secondary engineering packages adapted to each substation's interface requirements.",
+    impact: "The multi-site approach improved delivery consistency and reduced interface errors.",
+    metrics: [
+      { label: "Sites", value: "3 substations" },
+      { label: "Voltage level", value: "220 kV" },
+      { label: "Scope", value: "Secondary engineering" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "midor-midelec-expansion",
+    title: "MIDOR-MIDELEC Generation Expansion",
+    sector: "Oil & Gas",
+    location: "Egypt",
+    summary: "Turbine protection coordination studies and testing team supply for the MIDOR-MIDELEC expansion project.",
+    intro: "Enetic supported MIDOR-MIDELEC generation expansion with turbine protection coordination studies and dedicated testing team mobilisation for execution support.",
+    heroImage: "/projects/pdf-crops/page29_card1.jpg",
+    gallery: ["/projects/pdf-crops/page29_card1.jpg"],
+    challenge: "Generation expansion introduced new protection interfaces requiring coordinated studies and disciplined testing execution.",
+    solution: "We performed turbine protection coordination studies and supplied specialist testing teams for implementation support.",
+    impact: "The project improved protection reliability and commissioning preparedness for expanded generation assets.",
+    metrics: [
+      { label: "Scope", value: "Turbine protection + team supply" },
+      { label: "Sector", value: "Oil & Gas" },
+      { label: "Role", value: "Technical consultant" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "sonker-oil-tanks-avr-relays",
+    title: "Sonker Oil Tanks Site",
+    sector: "Oil & Gas",
+    location: "Egypt",
+    summary: "Automatic voltage regulator relay configuration and testing for oil storage site power systems.",
+    intro: "Enetic configured and tested automatic voltage regulator relay schemes at Sonker Oil Tanks Site to improve voltage control performance and operational reliability.",
+    heroImage: "/projects/pdf-crops/page29_card3.jpg",
+    gallery: ["/projects/pdf-crops/page29_card3.jpg"],
+    challenge: "Site voltage stability and equipment protection needed tuned AVR relay settings under changing operational loading conditions.",
+    solution: "We configured AVR relays, executed functional testing, and validated performance against site operating conditions.",
+    impact: "The upgraded AVR settings improved voltage regulation behavior and system stability.",
+    metrics: [
+      { label: "Scope", value: "AVR relay configuration + testing" },
+      { label: "Sector", value: "Oil & Gas" },
+      { label: "Site", value: "Sonker" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "ezz-steel-220-30-extension-studies",
+    title: "Ezz Steel Factory 220/30kV Substation Extension",
+    sector: "Industrial",
+    location: "Egypt",
+    summary: "Insulation coordination and MV cable sizing studies for substation extension including STATCOM and harmonic filters.",
+    intro: "Enetic delivered insulation coordination and MV cable sizing studies for Ezz Steel's 220/30kV substation extension, including network integration with STATCOM and harmonic filter systems.",
+    heroImage: "/projects/pdf-crops/page29_card4.jpg",
+    gallery: ["/projects/pdf-crops/page29_card4.jpg"],
+    challenge: "The expansion required careful insulation coordination and cable sizing under harmonic-rich conditions from power electronics integration.",
+    solution: "We performed insulation coordination, MV cable sizing, and system studies covering STATCOM and harmonic filter interactions.",
+    impact: "The studies supported a robust extension design with improved reliability and power quality performance.",
+    metrics: [
+      { label: "Voltage level", value: "220/30 kV" },
+      { label: "Scope", value: "Insulation + cable studies" },
+      { label: "Special systems", value: "STATCOM + harmonic filters" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "industrial-testing-equipment-renting",
+    title: "Industrial Testing Equipment Renting",
+    sector: "Industrial",
+    location: "Egypt",
+    summary: "Testing equipment rental services for industrial and oil & gas project execution teams.",
+    intro: "Enetic supported industrial and energy clients with specialist testing equipment rental services to accelerate outage testing, commissioning, and troubleshooting activities.",
+    heroImage: "/projects/pdf-crops/page29_card2.jpg",
+    gallery: ["/projects/pdf-crops/page29_card2.jpg"],
+    challenge: "Projects frequently required short-notice access to certified test instruments without long procurement cycles.",
+    solution: "We provided tested and calibrated equipment packages with technical guidance for field deployment.",
+    impact: "Clients reduced mobilisation time and improved testing readiness for critical milestones.",
+    metrics: [
+      { label: "Service type", value: "Equipment rental" },
+      { label: "Use cases", value: "Testing + commissioning" },
+      { label: "Coverage", value: "Industrial & energy sites" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "banha-port-said-eis-ocs-rehab",
+    title: "Banha-Port Said EISs / OCs Rehabilitation",
+    sector: "Urban Mobility",
+    location: "Egypt",
+    summary: "High-voltage system protection and power system study support for EIS/OC rehabilitation scope.",
+    intro: "Enetic supported Banha-Port Said railway electrical infrastructure rehabilitation with high-voltage protection engineering and targeted power system studies.",
+    heroImage: "/projects/pdf-crops/page30_card2.jpg",
+    gallery: ["/projects/pdf-crops/page30_card2.jpg"],
+    challenge: "Rehabilitation projects require continuity with existing systems while introducing upgraded protection and analysis frameworks.",
+    solution: "We delivered protection-focused engineering support and studies tailored to the existing rail electrical infrastructure.",
+    impact: "The package supported safer and more reliable rehabilitation execution.",
+    metrics: [
+      { label: "Sector", value: "Rail mobility" },
+      { label: "Scope", value: "HV protection + studies" },
+      { label: "Project type", value: "Rehabilitation" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "cairo-metro-line4-phase1-220-20",
+    title: "Cairo Metro Line 4 - Phase 1",
+    sector: "Urban Mobility",
+    location: "Cairo, Egypt",
+    summary: "High-voltage protection and secondary detailed design for 220/20kV substation systems.",
+    intro: "Enetic supported Cairo Metro Line 4 Phase 1 with high-voltage protection engineering and secondary system detailed design for 220/20kV traction supply infrastructure.",
+    heroImage: "/projects/pdf-crops/page30_card3.jpg",
+    gallery: ["/projects/pdf-crops/page30_card3.jpg"],
+    challenge: "Metro expansion required dependable traction power protection and detailed secondary design under strict performance constraints.",
+    solution: "We delivered HV protection studies and detailed secondary system engineering aligned with metro traction requirements.",
+    impact: "The design package strengthened delivery readiness for one of Cairo's key mobility expansions.",
+    metrics: [
+      { label: "Voltage level", value: "220/20 kV" },
+      { label: "Scope", value: "HV protection + secondary detailed design" },
+      { label: "Phase", value: "Line 4 - P1" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "lrt-bader2-althawra-extension",
+    title: "LRT Supply Extension - Bader II & Althawra",
+    sector: "Urban Mobility",
+    location: "Egypt",
+    summary: "Signaling, power, and telecom cable planning layouts for LRT supply extension substations.",
+    intro: "Enetic provided engineering support for LRT supply extension works in Bader II and Althawra substations, including cable planning layouts for signaling, power, and telecom systems.",
+    heroImage: "/projects/pdf-crops/page30_card4.jpg",
+    gallery: ["/projects/pdf-crops/page30_card4.jpg"],
+    challenge: "The extension demanded integrated multi-discipline cable planning to avoid clashes and preserve maintainability.",
+    solution: "We developed coordinated cable layout plans across signaling, power, and telecom systems for the extension scope.",
+    impact: "The layout package improved constructability and reduced interface risks during implementation.",
+    metrics: [
+      { label: "Scope", value: "Cable planning layouts" },
+      { label: "Systems", value: "Signaling / Power / Telecom" },
+      { label: "Project", value: "LRT supply extension" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "hv-equipment-testing-engineers-supply",
+    title: "HV Equipment Testing Engineers Supply",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Specialist manpower supply for high-voltage equipment testing and protection verification tasks.",
+    intro: "Enetic supplied experienced high-voltage testing engineers to support project teams during testing, commissioning, and troubleshooting programs.",
+    heroImage: "/home/capabilities/commissioning.png",
+    gallery: ["/home/capabilities/commissioning.png", "/home/capabilities/protection-scada.jpg", "/home/capabilities/substation-design.jpeg"],
+    challenge: "Projects often faced resource constraints during critical testing windows where specialist skills were required immediately.",
+    solution: "We mobilised qualified testing engineers with practical field experience in HV equipment and protection systems.",
+    impact: "Teams maintained schedule momentum and improved execution quality during critical test phases.",
+    metrics: [
+      { label: "Service", value: "Engineer supply" },
+      { label: "Focus", value: "HV equipment testing" },
+      { label: "Application", value: "Commissioning support" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "cairo-metro-line3-3b-hv-services",
+    title: "Cairo Metro Line 3-3B HV Services Package",
+    sector: "Urban Mobility",
+    location: "Cairo, Egypt",
+    summary: "High-voltage equipment testing engineer supply and protection studies package for Cairo Metro Line 3-3B.",
+    intro: "In addition to secondary design activities, Enetic delivered a dedicated HV services package for Cairo Metro Line 3-3B covering testing engineer supply and protection/power system study support.",
+    heroImage: "/projects/pdf-crops/page30_card1.jpg",
+    gallery: ["/projects/pdf-crops/page30_card1.jpg"],
+    challenge: "Rail expansion timelines required combined engineering and site testing support to keep traction substations on schedule.",
+    solution: "We provided integrated protection studies and HV testing resource support tailored to the Line 3-3B execution plan.",
+    impact: "The integrated support model reduced delivery friction and improved commissioning preparedness.",
+    metrics: [
+      { label: "Line", value: "Metro Line 3-3B" },
+      { label: "Scope", value: "Studies + testing engineer supply" },
+      { label: "Sector", value: "Urban mobility" }
+    ],
+    relatedServiceSlugs: ["energy-transition"]
+  },
+  {
     slug: "cairo-metro-line3",
     title: "Cairo Metro Line 3 \u2014 Phase 3B",
     sector: "Urban Mobility",
     location: "Cairo, Egypt",
     summary: "High-voltage secondary system design and protection studies for the 66/20kV substations serving Cairo Metro's largest expansion phase.",
     intro: "Enetic completed the high-voltage secondary system design package for Cairo Metro Line 3-3B, delivering protection and secondary system detailed design for the 66/20kV traction substations. We also performed power system studies related to the expansion phase interconnection.",
-    heroImage: "https://images.unsplash.com/photo-1568992687947-868a62a9f521?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/pdf-crops/page30_card1.jpg",
     gallery: [
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/substation-design.jpeg",
-      "/home/capabilities/commissioning.png"
+      "/projects/pdf-crops/page30_card1.jpg"
     ],
     challenge: "Metro traction substations require a high level of protection coordination reliability, with specific requirements for rapid fault clearance to avoid service disruption.",
     solution: "We delivered the complete HV secondary design package and protection coordination studies for all 66/20kV substations across the expansion corridor.",
@@ -630,6 +1027,386 @@ export const projects: Project[] = [
       { label: "Network", value: "Cairo Metro" }
     ],
     relatedServiceSlugs: ["energy-transition"]
+  },
+  {
+    slug: "gerza-220-66-22-substation",
+    title: "Gerza 220/66/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "High-voltage protection and secondary system design package for the Gerza 220/66/22kV substation.",
+    intro: "Enetic delivered high-voltage system protection and secondary system design services for the Gerza 220/66/22kV substation project, including engineering deliverables for protection architecture and detailed secondary interfaces.",
+    heroImage: "/projects/pdf-crops/page26_card1.jpg",
+    gallery: ["/projects/pdf-crops/page26_card1.jpg"],
+    challenge: "Developing a robust protection and secondary architecture required full alignment with utility operational practices and future expansion readiness.",
+    solution: "We prepared the complete protection and secondary design package with clear interface drawings, logic alignment, and engineering documentation for implementation.",
+    impact: "The design package improved readiness for execution and provided a clear technical basis for reliable substation operation.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Discipline", value: "Protection & Secondary Design" },
+      { label: "Role", value: "Engineering Consultant" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "mostakbal-city-extension-220-22",
+    title: "Mostakbal City Extension 220/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Detailed protection and secondary system design for a strategic 220/22kV network extension.",
+    intro: "For Mostakbal City Extension, Enetic provided detailed high-voltage protection and secondary engineering to support network growth and dependable urban power supply.",
+    heroImage: "/projects/pdf-crops/page26_card2.jpg",
+    gallery: ["/projects/pdf-crops/page26_card2.jpg"],
+    challenge: "The extension required detailed engineering that integrates seamlessly with existing network control and protection schemes.",
+    solution: "We delivered a full detailed design package covering protection philosophies, secondary system arrangements, and implementation-level documentation.",
+    impact: "The project established a scalable technical foundation for future demand growth in the development corridor.",
+    metrics: [
+      { label: "Voltage level", value: "220/22 kV" },
+      { label: "Scope", value: "Detailed Protection & Secondary Design" },
+      { label: "Project type", value: "Network Extension" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "badr-500-220-66-22-commissioning",
+    title: "Badr 500/220/66/22 kV Substation Commissioning",
+    sector: "High Voltage Networks",
+    location: "Badr, Egypt",
+    summary: "Protection system testing and commissioning services for Badr multi-voltage substation assets.",
+    intro: "Enetic supported protection testing and commissioning activities at Badr 500/220/66/22kV substation to validate relay behavior and ensure safe energisation readiness.",
+    heroImage: "/projects/pdf-crops/page26_card3.jpg",
+    gallery: ["/projects/pdf-crops/page26_card3.jpg"],
+    challenge: "Commissioning in a complex multi-voltage environment required strict sequence control and robust verification records.",
+    solution: "We executed structured protection test plans, verified settings and interlocks, and documented commissioning results for handover.",
+    impact: "The commissioning package reduced energisation risk and improved operational confidence for the substation team.",
+    metrics: [
+      { label: "Voltage levels", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "Protection Testing & Commissioning" },
+      { label: "Role", value: "Commissioning Engineer" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "toshky-220-66-22-testing-support",
+    title: "Toshky 220/66/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Toshky, Egypt",
+    summary: "High-voltage testing and protection engineering support for Toshky substation systems.",
+    intro: "Enetic provided high-voltage testing services and protection engineering manpower support for the Toshky 220/66/22kV substation.",
+    heroImage: "/projects/pdf-crops/page26_card4.jpg",
+    gallery: ["/projects/pdf-crops/page26_card4.jpg"],
+    challenge: "Ensuring accurate field testing under tight delivery windows required disciplined planning and experienced engineers on site.",
+    solution: "We deployed testing engineers, executed HV test activities, and supported protection verification and closeout documentation.",
+    impact: "The project accelerated readiness for commissioning and improved technical quality during field execution.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Scope", value: "HV Testing & Protection Support" },
+      { label: "Delivery", value: "Site Engineering Team" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "abo-rawash-66-11-protection-design",
+    title: "Abo Rawash 66/11 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Abo Rawash, Egypt",
+    summary: "Protection and secondary system design for 66/11kV substation infrastructure.",
+    intro: "Enetic delivered high-voltage protection and secondary design services for Abo Rawash 66/11kV substation as part of network reinforcement requirements.",
+    heroImage: "/projects/pdf-crops/page27_card1.jpg",
+    gallery: ["/projects/pdf-crops/page27_card1.jpg"],
+    challenge: "The substation required precise coordination between MV distribution requirements and upstream HV protection philosophy.",
+    solution: "We prepared secondary design and protection documentation aligned with utility standards and implementation constraints.",
+    impact: "The project strengthened substation design maturity and enabled dependable downstream distribution integration.",
+    metrics: [
+      { label: "Voltage level", value: "66/11 kV" },
+      { label: "Scope", value: "Protection & Secondary Design" },
+      { label: "Sector", value: "Substation Infrastructure" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "east-qena-500-220-66-22-commissioning",
+    title: "East Qena 500/220/66/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Qena, Egypt",
+    summary: "Testing and commissioning of high-voltage systems for East Qena multi-voltage substation.",
+    intro: "Enetic supported testing and commissioning activities for East Qena 500/220/66/22kV substation, with focus on high-voltage system validation and commissioning readiness.",
+    heroImage: "/projects/pdf-crops/page27_card2.jpg",
+    gallery: ["/projects/pdf-crops/page27_card2.jpg"],
+    challenge: "Commissioning scope had to be synchronized across multiple voltage levels and interdependent protection functions.",
+    solution: "We executed commissioning tests, verified control and protection behavior, and provided technical closeout records.",
+    impact: "The engagement improved commissioning reliability and reduced interface risk during energisation stages.",
+    metrics: [
+      { label: "Voltage levels", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "HV Testing & Commissioning" },
+      { label: "Role", value: "Commissioning Support" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "new-capital-s1-500-220-66-22",
+    title: "New Capital S1 500/220/66/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "New Administrative Capital, Egypt",
+    summary: "Protection system testing and commissioning support for S1 substation.",
+    intro: "Enetic provided protection testing and commissioning services for New Capital S1 substation to support secure operation of one of Egypt's key strategic grid assets.",
+    heroImage: "/projects/pdf-crops/page27_card3.jpg",
+    gallery: ["/projects/pdf-crops/page27_card3.jpg"],
+    challenge: "Commissioning quality had to be maintained under high criticality, tight schedules, and large interface complexity.",
+    solution: "We delivered protection verification, commissioning procedures, and technical support during energisation stages.",
+    impact: "The project contributed to reliable startup and stable operation of a core node in the new capital network.",
+    metrics: [
+      { label: "Voltage levels", value: "500/220/66/22 kV" },
+      { label: "Scope", value: "Protection Testing & Commissioning" },
+      { label: "Role", value: "Testing Engineer" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "housh-eissa-220-66-22-design",
+    title: "Housh Eissa 220/66/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Beheira, Egypt",
+    summary: "High-voltage protection and secondary system design services for Housh Eissa substation.",
+    intro: "Enetic delivered protection and secondary design engineering for Housh Eissa 220/66/22kV substation to support safe and scalable network operation.",
+    heroImage: "/projects/pdf-crops/page27_card4.jpg",
+    gallery: ["/projects/pdf-crops/page27_card4.jpg"],
+    challenge: "Balancing detailed secondary engineering with maintainability and operational simplicity was essential for long-term performance.",
+    solution: "We produced engineering-grade protection and secondary deliverables tailored for utility implementation.",
+    impact: "The output improved project execution confidence and reduced downstream redesign risk.",
+    metrics: [
+      { label: "Voltage level", value: "220/66/22 kV" },
+      { label: "Scope", value: "Protection & Secondary Design" },
+      { label: "Role", value: "Engineering Consultant" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "cairo-west-plant-generator-protection",
+    title: "Cairo West Power Plant Generator Protection",
+    sector: "High Voltage Networks",
+    location: "Cairo, Egypt",
+    summary: "Generator protection testing and commissioning support at Cairo West power plant.",
+    intro: "Enetic provided testing and commissioning support for generator protection systems at Cairo West Power Plant, focusing on dependable trip logic and coordination performance.",
+    heroImage: "/projects/pdf-crops/page28_card1.jpg",
+    gallery: ["/projects/pdf-crops/page28_card1.jpg"],
+    challenge: "Generator protection commissioning requires accurate timing and coordination to prevent false trips while preserving machine safety.",
+    solution: "We carried out protection tests, verified settings and functional response, and supported commissioning records for acceptance.",
+    impact: "The work increased protection reliability and strengthened operational assurance for generation assets.",
+    metrics: [
+      { label: "Asset type", value: "Power Plant Generator" },
+      { label: "Scope", value: "Protection Testing & Commissioning" },
+      { label: "Role", value: "Testing Team" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "al-hay-al-motamayz-220-22",
+    title: "Al Hay Al Motamayz 220/22 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Testing and commissioning of high-voltage systems for Al Hay Al Motamayz substation.",
+    intro: "Enetic executed testing and commissioning tasks for the Al Hay Al Motamayz 220/22kV substation to support safe operation and handover.",
+    heroImage: "/projects/pdf-crops/page28_card2.jpg",
+    gallery: ["/projects/pdf-crops/page28_card2.jpg"],
+    challenge: "Field commissioning required coordinated execution across protection, control, and primary equipment teams.",
+    solution: "We provided structured test procedures, executed verification activities, and produced closeout documentation.",
+    impact: "The substation commissioning process achieved stronger technical traceability and smoother handover.",
+    metrics: [
+      { label: "Voltage level", value: "220/22 kV" },
+      { label: "Scope", value: "HV Testing & Commissioning" },
+      { label: "Role", value: "Commissioning Support" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "el-tbeen-66-11-6-6-design",
+    title: "El-Tbeen 66/11/6.6 kV Substation",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Protection and secondary engineering design for multi-level industrial substation configuration.",
+    intro: "Enetic delivered protection and secondary system design for El-Tbeen 66/11/6.6kV substation, addressing industrial load requirements with robust technical architecture.",
+    heroImage: "/projects/pdf-crops/page28_card3.jpg",
+    gallery: ["/projects/pdf-crops/page28_card3.jpg"],
+    challenge: "Multi-level voltage architecture required coordinated protection behavior across industrial supply segments.",
+    solution: "We developed protection and secondary design documentation with emphasis on coordination and operational reliability.",
+    impact: "The design package supported safer integration of critical industrial loads and improved maintainability.",
+    metrics: [
+      { label: "Voltage levels", value: "66/11/6.6 kV" },
+      { label: "Scope", value: "Protection & Secondary Design" },
+      { label: "Application", value: "Industrial Power" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "mansoura-alamein-sadat-220kv",
+    title: "Mansoura, Alamein & El Sadat 220kV Substations",
+    sector: "High Voltage Networks",
+    location: "Egypt",
+    summary: "Secondary engineering services across multiple 220kV substations.",
+    intro: "Enetic delivered secondary engineering services for a portfolio of 220kV substations in Mansoura, Alamein, and El Sadat, standardizing outputs across sites.",
+    heroImage: "/projects/pdf-crops/page28_card4.jpg",
+    gallery: ["/projects/pdf-crops/page28_card4.jpg"],
+    challenge: "Multi-site delivery demanded consistency in engineering standards while respecting each substation's specific conditions.",
+    solution: "We implemented a harmonized secondary engineering approach and delivered site-specific technical packages.",
+    impact: "The engagement improved engineering quality consistency and reduced implementation variance across locations.",
+    metrics: [
+      { label: "Sites", value: "3 substations" },
+      { label: "Voltage level", value: "220 kV" },
+      { label: "Scope", value: "Secondary Engineering Services" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "midor-midelec-expansion",
+    title: "MIDOR - MIDELEC Power Generation Expansion",
+    sector: "Oil & Gas",
+    location: "Egypt",
+    summary: "Turbine protection coordination studies and turbine protection testing team support for expansion works.",
+    intro: "Enetic supported the MIDOR-MIDELEC expansion by delivering turbine protection coordination studies and supplying turbine protection testing teams during project execution.",
+    heroImage: "/projects/pdf-crops/page29_card1.jpg",
+    gallery: ["/projects/pdf-crops/page29_card1.jpg"],
+    challenge: "Expansion activities required turbine protection performance assurance without compromising existing operational stability.",
+    solution: "We conducted coordination studies and deployed protection testing specialists to validate turbine protection operation.",
+    impact: "The work improved protection readiness for expanded generation assets and reduced commissioning risk.",
+    metrics: [
+      { label: "Scope", value: "Coordination + Testing Team Supply" },
+      { label: "Domain", value: "Turbine Protection Systems" },
+      { label: "Sector", value: "Oil & Gas / Industrial" }
+    ],
+    relatedServiceSlugs: ["protection-scada-automation"]
+  },
+  {
+    slug: "sonker-oil-tanks-avr-relays",
+    title: "Sonker Oil Tanks Site",
+    sector: "Oil & Gas",
+    location: "Egypt",
+    summary: "Automatic Voltage Regulator relay configuration and testing services.",
+    intro: "Enetic delivered AVR relay configuration and testing at Sonker Oil Tanks Site to improve voltage control stability and protection reliability.",
+    heroImage: "/projects/pdf-crops/page29_card3.jpg",
+    gallery: ["/projects/pdf-crops/page29_card3.jpg"],
+    challenge: "Voltage control reliability depended on precise AVR relay configuration and repeatable test verification.",
+    solution: "We configured AVR relays, executed testing procedures, and validated settings against operational requirements.",
+    impact: "The site gained improved confidence in voltage control behavior and reliable operation under varying load conditions.",
+    metrics: [
+      { label: "Scope", value: "AVR Relay Configuration & Testing" },
+      { label: "Application", value: "Oil Storage Site Power Systems" },
+      { label: "Role", value: "Protection Engineer" }
+    ],
+    relatedServiceSlugs: ["protection-scada-automation"]
+  },
+  {
+    slug: "ezz-steel-220-30-extension",
+    title: "Ezz Steel Factory 220/30 kV Substation Extension",
+    sector: "Industrial",
+    location: "Egypt",
+    summary: "Insulation coordination and MV cable sizing studies for substation extension including STATCOM and harmonic filters.",
+    intro: "Enetic conducted insulation coordination and medium-voltage cable sizing studies for Ezz Steel substation extension, including STATCOM and harmonic filter network integration.",
+    heroImage: "/projects/pdf-crops/page29_card4.jpg",
+    gallery: ["/projects/pdf-crops/page29_card4.jpg"],
+    challenge: "The extension needed technically sound insulation and cable studies under harmonic-rich operating conditions.",
+    solution: "We executed insulation coordination studies and detailed MV cable sizing considering STATCOM and harmonic filter effects.",
+    impact: "The project reduced technical risk in extension design and strengthened network performance for industrial operation.",
+    metrics: [
+      { label: "Voltage level", value: "220/30 kV" },
+      { label: "Scope", value: "Insulation + MV Cable Studies" },
+      { label: "Special systems", value: "STATCOM & Harmonic Filters" }
+    ],
+    relatedServiceSlugs: ["power-systems-studies"]
+  },
+  {
+    slug: "testing-equipment-renting-services",
+    title: "Testing Equipment Renting Services",
+    sector: "Industrial",
+    location: "Egypt & Regional",
+    summary: "Specialized HV/MV testing equipment renting with qualified engineering support.",
+    intro: "Enetic provided testing equipment renting services for high-voltage and medium-voltage projects, supported by experienced engineers to ensure correct test execution and reporting.",
+    heroImage: "/projects/pdf-crops/page29_card2.jpg",
+    gallery: ["/projects/pdf-crops/page29_card2.jpg"],
+    challenge: "Projects often require specialist testing assets quickly, with minimal mobilization delays and assured technical quality.",
+    solution: "We offered calibrated equipment packages alongside optional test engineers for deployment and technical supervision.",
+    impact: "Clients reduced procurement delays and gained faster access to high-quality testing capability during critical project stages.",
+    metrics: [
+      { label: "Service type", value: "Equipment Renting + Technical Support" },
+      { label: "Application", value: "HV/MV Testing Campaigns" },
+      { label: "Coverage", value: "Project-based Deployment" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "cairo-metro-line3-3b-mobility-package",
+    title: "Cairo Metro Line 3 - 3B Mobility Package",
+    sector: "Urban Mobility",
+    location: "Cairo, Egypt",
+    summary: "High-voltage equipment testing engineer supply and protection/power system studies for Line 3-3B assets.",
+    intro: "Beyond design services, Enetic supported Cairo Metro Line 3-3B with high-voltage testing engineer supply and dedicated protection and power system studies for mobility infrastructure.",
+    heroImage: "/projects/pdf-crops/page30_card1.jpg",
+    gallery: ["/projects/pdf-crops/page30_card1.jpg"],
+    challenge: "Urban rail projects require synchronized electrical testing and study outputs across multiple systems and delivery packages.",
+    solution: "We deployed testing engineers and delivered focused protection and system studies aligned with project interfaces and commissioning stages.",
+    impact: "The package improved technical coordination and helped accelerate readiness for rail electrification milestones.",
+    metrics: [
+      { label: "Network", value: "Cairo Metro Line 3-3B" },
+      { label: "Scope", value: "Testing Team + Protection Studies" },
+      { label: "Sector", value: "Mobility Infrastructure" }
+    ],
+    relatedServiceSlugs: ["commissioning-testing"]
+  },
+  {
+    slug: "banha-port-said-eis-ocs-rehab",
+    title: "Banha-Port Said EISs / OCs Rehabilitation",
+    sector: "Urban Mobility",
+    location: "Egypt",
+    summary: "Signaling, power, and telecom cable planning layout for EIS/OC rehabilitation works.",
+    intro: "Enetic supported rehabilitation works for Banha-Port Said EISs/OCs by providing planning layouts for signaling, power, and telecommunication cable systems.",
+    heroImage: "/projects/pdf-crops/page30_card2.jpg",
+    gallery: ["/projects/pdf-crops/page30_card2.jpg"],
+    challenge: "Rehabilitation projects require careful cable routing and phasing to minimize operational disruptions on active transport corridors.",
+    solution: "We delivered integrated cable planning layouts and technical coordination inputs for signaling and power disciplines.",
+    impact: "The planning package improved constructability and reduced interface conflicts during rehabilitation execution.",
+    metrics: [
+      { label: "Scope", value: "Signaling, Power & Telecom Layouts" },
+      { label: "Program", value: "Rehabilitation" },
+      { label: "Sector", value: "Rail Mobility" }
+    ],
+    relatedServiceSlugs: ["protection-scada-automation"]
+  },
+  {
+    slug: "cairo-metro-line4-p1-220-20",
+    title: "Cairo Metro Line 4 - P1 220/20 kV Substations",
+    sector: "Urban Mobility",
+    location: "Cairo, Egypt",
+    summary: "High-voltage system protection and secondary system detailed design for Line 4 Phase 1 substations.",
+    intro: "Enetic provided detailed high-voltage protection and secondary system design services for Cairo Metro Line 4 - Phase 1, supporting the traction power substation package.",
+    heroImage: "/projects/pdf-crops/page30_card3.jpg",
+    gallery: ["/projects/pdf-crops/page30_card3.jpg"],
+    challenge: "Traction substations required high reliability design while maintaining integration with broader metro control and protection systems.",
+    solution: "We delivered detailed protection and secondary engineering with implementation-ready documentation for the 220/20kV substations.",
+    impact: "The design strengthened technical readiness for one of Cairo's most important transit expansion phases.",
+    metrics: [
+      { label: "Voltage level", value: "220/20 kV" },
+      { label: "Program", value: "Cairo Metro Line 4 - P1" },
+      { label: "Scope", value: "Protection & Secondary Detailed Design" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
+  },
+  {
+    slug: "lrt-bader-ii-althawra-extension",
+    title: "LRT Supply Extension in Bader II & Althawra Substations",
+    sector: "Urban Mobility",
+    location: "Egypt",
+    summary: "High-voltage system protection and secondary design support for LRT supply extension substations.",
+    intro: "Enetic supported LRT supply extension works at Bader II and Althawra substations with high-voltage protection and secondary system detailed design services.",
+    heroImage: "/projects/pdf-crops/page30_card4.jpg",
+    gallery: ["/projects/pdf-crops/page30_card4.jpg"],
+    challenge: "Extension works had to ensure compatibility with existing traction infrastructure while maintaining protection selectivity.",
+    solution: "We delivered detailed protection and secondary design deliverables to support phased extension and commissioning.",
+    impact: "The project supported dependable LRT power expansion with improved engineering consistency across substations.",
+    metrics: [
+      { label: "Scope", value: "HV Protection & Secondary Detailed Design" },
+      { label: "Assets", value: "Bader II & Althawra S/S" },
+      { label: "Sector", value: "Urban Mobility" }
+    ],
+    relatedServiceSlugs: ["substation-design"]
   }
 ];
 
