@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { homePeople } from "@/lib/data";
 import { getPersonBySlug, personSlug } from "@/lib/people";
+import { ScrollToTopOnMount } from "@/components/scroll-to-top-on-mount";
 
 export function generateStaticParams() {
   return homePeople.map((person) => ({ slug: personSlug(person.name) }));
@@ -37,6 +38,7 @@ export default function PersonCvPage({ params }: { params: { slug: string } }) {
 
   return (
     <main className="person-cv-page">
+      <ScrollToTopOnMount />
       <section className="person-cv-hero">
         <div className="person-cv-hero__overlay" />
         <div className="person-cv-shell">
