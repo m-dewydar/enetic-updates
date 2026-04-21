@@ -64,6 +64,8 @@ function ProfileModal({
       {/* Panel */}
       <motion.div
         className="op-panel"
+        data-lenis-prevent
+        data-lenis-prevent-wheel
         role="dialog"
         aria-modal="true"
         aria-label={`Profile of ${person.name}`}
@@ -105,7 +107,7 @@ function ProfileModal({
         </div>
 
         {/* Scrollable body */}
-        <div className="op-panel__body">
+        <div className="op-panel__body" data-lenis-prevent data-lenis-prevent-wheel>
           {/* Quote */}
           <blockquote className="op-panel__quote">
             <span className="op-panel__quote-mark">&ldquo;</span>
