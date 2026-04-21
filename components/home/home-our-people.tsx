@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { homePeople } from "@/lib/data";
+import { personSlug } from "@/lib/people";
 import { Reveal } from "@/components/reveal";
 
 type Person = (typeof homePeople)[0];
@@ -150,6 +151,17 @@ function ProfileModal({
 
           {/* LinkedIn CTA */}
           <div className="op-panel__footer">
+            <Link
+              href={`/people/${personSlug(person.name)}/cv`}
+              className="op-panel__cv-btn"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="op-panel__cv-icon">
+                <path d="M7 3h7l5 5v13H7z" />
+                <path d="M14 3v5h5" />
+                <path d="M10 13h6M10 17h6" />
+              </svg>
+              View CV
+            </Link>
             <Link
               href={person.linkedin}
               target="_blank"

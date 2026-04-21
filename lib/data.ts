@@ -1493,6 +1493,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Power Engineering, Cairo University · MSc Power Systems, University of Manchester",
     experience: "18+ years",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   },
   {
@@ -1505,6 +1506,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Engineering, Alexandria University · IEC 61850 Certified Engineer",
     experience: "12 years",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   },
   {
@@ -1517,6 +1519,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Power Engineering, Ain Shams University · MSc Electrical Power Systems, Newcastle University",
     experience: "14 years",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   },
   {
@@ -1529,6 +1532,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Engineering, Helwan University · Certified in HV Testing & Safety (IEEE)",
     experience: "9 years",
     image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   },
   {
@@ -1541,6 +1545,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Engineering, Cairo University · Diploma in HV Electrical Design, IEC Standards",
     experience: "11 years",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   },
   {
@@ -1553,6 +1558,7 @@ export const homePeople = [
     education: "B.Sc. Electrical Power Engineering, Cairo University · MSc Renewable Energy Systems, KTH Stockholm",
     experience: "8 years",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80",
+    cvPdf: "/cv/fake-engineer-cv.pdf",
     linkedin: "https://www.linkedin.com/"
   }
 ];

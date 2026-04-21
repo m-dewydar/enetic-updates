@@ -1185,6 +1185,33 @@ video {
   margin-top: auto;
   padding-top: 2rem;
   border-top: 1px solid rgba(15, 23, 33, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+.op-panel__cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 33, 0.18);
+  background: #fff;
+  color: var(--color-ink);
+  font-size: 0.83rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.3s var(--ease-premium), transform 0.25s;
+}
+.op-panel__cv-btn:hover {
+  border-color: rgba(15, 23, 33, 0.35);
+  transform: translateY(-1px);
+}
+.op-panel__cv-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
 }
 .op-panel__linkedin-btn {
   display: inline-flex;
@@ -1207,6 +1234,250 @@ video {
   width: 1rem;
   height: 1rem;
   flex-shrink: 0;
+}
+
+/* ──────────────────────────────────────────────
+   12-B. PERSON CV PAGE
+─────────────────────────────────────────────── */
+.person-cv-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f6f2eb 0%, #fdfcfa 60%, #ffffff 100%);
+}
+.person-cv-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+.person-cv-hero {
+  position: relative;
+  padding: 2.2rem 0 2rem;
+  border-bottom: 1px solid rgba(15, 23, 33, 0.08);
+}
+.person-cv-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 12% 20%, rgba(180, 148, 95, 0.16), transparent 38%);
+  pointer-events: none;
+}
+.person-cv-hero__back {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-ink);
+  text-decoration: none;
+  font-size: 0.92rem;
+  margin-bottom: 1.35rem;
+}
+.person-cv-hero__back svg {
+  width: 1rem;
+  height: 1rem;
+}
+.person-cv-hero__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.person-cv-hero__portrait {
+  position: relative;
+  width: 86px;
+  height: 86px;
+  border-radius: 1.1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 16px 40px rgba(15, 23, 33, 0.18);
+}
+.person-cv-hero__portrait-img {
+  object-fit: cover;
+}
+.person-cv-hero__eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-steel);
+  margin: 0 0 0.45rem;
+  font-weight: 700;
+}
+.person-cv-hero__name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 2.8vw, 2.5rem);
+  line-height: 1.05;
+  color: var(--color-ink);
+}
+.person-cv-hero__meta {
+  margin: 0.45rem 0 0;
+  font-size: 0.95rem;
+  color: var(--color-steel);
+}
+.person-cv-hero__exp {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  color: #7f8a93;
+}
+.person-cv-content-wrap {
+  padding: 1.5rem 0 2.8rem;
+}
+.person-cv-shell--content {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 33, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 24px 52px rgba(15, 23, 33, 0.1);
+  padding: 1.1rem;
+}
+.person-cv-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1.1rem;
+}
+.person-cv-side {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.person-cv-card {
+  border: 1px solid rgba(15, 23, 33, 0.08);
+  border-radius: 1.15rem;
+  padding: 1rem;
+  background: linear-gradient(180deg, #fff, #fbfaf8);
+}
+.person-cv-card__label {
+  margin: 0 0 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-steel);
+}
+.person-cv-card__name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.1;
+  color: var(--color-ink);
+}
+.person-cv-card__role {
+  margin: 0.42rem 0 0.8rem;
+  font-size: 0.87rem;
+  color: #6f7780;
+}
+.person-cv-card__link {
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--color-ink);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.person-cv-card__text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #515a63;
+  line-height: 1.65;
+}
+.person-cv-tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.person-cv-tags li {
+  border: 1px solid rgba(15, 23, 33, 0.14);
+  border-radius: 999px;
+  padding: 0.34rem 0.64rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #404a53;
+}
+.person-cv-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.person-cv-section {
+  border: 1px solid rgba(15, 23, 33, 0.08);
+  border-radius: 1.15rem;
+  background: #fff;
+  padding: 1rem 1.1rem;
+}
+.person-cv-section__eyebrow {
+  margin: 0 0 0.7rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-steel);
+  font-weight: 700;
+}
+.person-cv-section__body {
+  margin: 0;
+  line-height: 1.8;
+  color: #3f4953;
+  font-size: 0.95rem;
+}
+.person-cv-list {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+.person-cv-list li {
+  color: #3f4953;
+  line-height: 1.65;
+  font-size: 0.93rem;
+}
+.person-cv-timeline {
+  display: grid;
+  gap: 0.75rem;
+}
+.person-cv-timeline__item {
+  border-left: 2px solid rgba(15, 23, 33, 0.18);
+  padding-left: 0.85rem;
+}
+.person-cv-timeline__period {
+  margin: 0;
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-steel);
+}
+.person-cv-timeline__title {
+  margin: 0.32rem 0 0.3rem;
+  font-size: 1rem;
+  color: var(--color-ink);
+}
+.person-cv-timeline__body {
+  margin: 0;
+  color: #4a545e;
+  line-height: 1.65;
+  font-size: 0.9rem;
+}
+.person-cv-quote {
+  margin: 0;
+  border-radius: 1.15rem;
+  border: 1px solid rgba(15, 23, 33, 0.08);
+  background: linear-gradient(135deg, #fcfbf8, #f5efe3);
+  padding: 1.1rem;
+  color: #36414c;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+@media (max-width: 960px) {
+  .person-cv-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 720px) {
+  .person-cv-shell--content {
+    padding: 0.8rem;
+  }
+  .person-cv-section,
+  .person-cv-card {
+    padding: 0.9rem;
+  }
 }
 
 /* ──────────────────────────────────────────────
