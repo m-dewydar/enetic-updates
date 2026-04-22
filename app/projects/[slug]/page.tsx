@@ -62,7 +62,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                 src={image}
                 alt={`${project.title} gallery image ${index + 1}`}
                 fill
-                className="object-cover transition-transform duration-700 hover:scale-105"
+                className="object-contain bg-[#0d1a25] p-2 transition-transform duration-700 hover:scale-105"
               />
             </Reveal>
           ))}

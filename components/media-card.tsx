@@ -26,7 +26,7 @@ export function MediaCard({ href, image, title, meta, description, className }: 
           src={image}
           alt={title}
           fill
-          className="object-cover transition-transform duration-700 ease-premium group-hover:scale-110"
+          className="object-contain bg-[#0d1a25] p-2 transition-transform duration-700 ease-premium group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/20 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
       </div>

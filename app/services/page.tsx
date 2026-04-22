@@ -2,15 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { services } from "@/lib/data";
 
-const serviceIcons: Record<string, string> = {
-  "power-systems-studies": "⚡",
-  "substation-design": "🏗",
-  "protection-scada-automation": "🖥",
-  "commissioning-testing": "✅",
-  "owners-engineer": "📋",
-  "renewables-grid-integration": "☀️",
-};
-
 export default function ServicesPage() {
   return (
     <main className="services-page">

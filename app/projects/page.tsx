@@ -31,7 +31,7 @@ export default function ProjectsPage() {
       <section className="projects-hero">
         <div className="projects-hero__bg">
           <Image
-            src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1800&q=80"
+            src="/projects/hvdc-egypt-ksa_0.jpeg"
             alt="Enetic project references"
             fill
             priority
