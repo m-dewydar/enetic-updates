@@ -180,10 +180,10 @@ video {
 ─────────────────────────────────────────────── */
 .eyebrow {
   font-size: 0.7rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: rgba(60, 82, 100, 0.65);
+  color: rgba(36, 55, 70, 0.9);
 }
 
 /* ──────────────────────────────────────────────
@@ -195,7 +195,7 @@ video {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   overflow: hidden;
@@ -639,12 +639,13 @@ video {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  border: 1px solid var(--color-ink);
+  border: 1px solid rgba(15, 23, 33, 0.8);
   border-radius: 999px;
   padding: 0.75rem 1.5rem;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--color-ink);
+  background: #fff;
   text-decoration: none;
   transition:
     background 0.35s var(--ease-premium),
@@ -686,8 +687,8 @@ video {
   width: 2.75rem;
   height: 2.75rem;
   border-radius: 50%;
-  border: 1px solid rgba(15, 23, 33, 0.15);
-  background: transparent;
+  border: 1px solid rgba(15, 23, 33, 0.35);
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1412,12 +1413,17 @@ video {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.08);
   color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+.issues-controls__btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.9);
 }
 .issues-controls__counter {
   min-width: 2.9rem;
@@ -1436,12 +1442,13 @@ video {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: 999px;
   padding: 0.72rem 1.2rem;
   color: #fff;
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.06);
 }
 
 /* industry detail */
@@ -3024,8 +3031,8 @@ video {
   font-size: 0.68rem;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.42);
-  font-weight: 500;
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 700;
   margin: 0 0 1.25rem;
 }
 
@@ -3043,7 +3050,8 @@ video {
 .about-preview__body {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
   max-width: 54ch;
   margin: 0 0 2.25rem;
 }
@@ -3052,11 +3060,11 @@ video {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 999px;
   padding: 0.85rem 1.65rem;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   text-decoration: none;
   transition: background 0.35s var(--ease-premium), border-color 0.35s;
@@ -3156,7 +3164,8 @@ video {
 .about-preview-stat__label {
   font-size: 0.82rem;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.42);
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 700;
   white-space: pre-line;
 }
 
@@ -3165,7 +3174,8 @@ video {
   font-size: 0.68rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.32);
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 700;
   margin: 0 0 0.9rem;
   display: block;
 }
@@ -3470,13 +3480,13 @@ video {
 
 .projects-filter-tab {
   flex-shrink: 0;
-  border: 1px solid transparent;
+  border: 1px solid rgba(15, 23, 33, 0.22);
   border-radius: 999px;
   padding: 0.5rem 1.15rem;
   font-size: 0.82rem;
-  font-weight: 500;
-  color: rgba(15, 23, 33, 0.55);
-  background: transparent;
+  font-weight: 700;
+  color: rgba(15, 23, 33, 0.86);
+  background: rgba(255, 255, 255, 0.88);
   cursor: pointer;
   transition:
     background 0.3s var(--ease-premium),
@@ -3487,7 +3497,8 @@ video {
 
 .projects-filter-tab:hover {
   color: var(--color-ink);
-  border-color: rgba(15, 23, 33, 0.18);
+  border-color: rgba(15, 23, 33, 0.45);
+  background: #fff;
 }
 
 .projects-filter-tab--active {
@@ -3498,7 +3509,8 @@ video {
 
 .projects-filter-count {
   font-size: 0.78rem;
-  color: rgba(15, 23, 33, 0.38);
+  color: rgba(15, 23, 33, 0.72);
+  font-weight: 700;
   white-space: nowrap;
   flex-shrink: 0;
 }

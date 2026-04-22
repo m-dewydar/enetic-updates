@@ -39,7 +39,7 @@ export function Hero({ eyebrow, title, description, image, align = "left", cta }
           initial={{ opacity: 0, y: 26 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="eyebrow text-white/70"
+          className="eyebrow font-bold text-white/90"
         >
           {eyebrow}
         </motion.p>
@@ -55,7 +55,7 @@ export function Hero({ eyebrow, title, description, image, align = "left", cta }
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.85, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-2xl text-[0.98rem] leading-7 text-white/78 md:text-lg"
+          className="max-w-2xl text-[0.98rem] font-semibold leading-7 text-white/95 md:text-lg"
         >
           {description}
         </motion.p>

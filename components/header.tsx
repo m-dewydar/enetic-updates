@@ -134,7 +134,7 @@ export function Header() {
                 href={item.href}
                 className={cn(
                   "flex items-center border-b border-white/10 py-5 font-display text-[1.6rem] leading-none tracking-tight transition-colors duration-200",
-                  isActive(item.href) ? "text-white" : "text-white/60 hover:text-white"
+                  isActive(item.href) ? "font-bold text-white" : "font-semibold text-white/85 hover:text-white"
                 )}
               >
                 {item.label}
