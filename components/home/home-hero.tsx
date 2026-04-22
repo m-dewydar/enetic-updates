@@ -117,7 +117,6 @@ export function HomeHero() {
             loop
             playsInline
             preload={showClone ? "none" : "metadata"}
-            poster={homeIntro.heroImage}
             className="h-full w-full object-cover object-center"
           >
             {!showClone ? <source src={homeIntro.heroVideo} type="video/mp4" /> : null}
