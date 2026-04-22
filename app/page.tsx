@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { HomeHero } from "@/components/home/home-hero";
-import { HomeCapabilitiesGrid } from "@/components/home/home-capabilities-grid";
-import { HomeIdeasGrid } from "@/components/home/home-ideas-grid";
 import { HomeWorkShowcase } from "@/components/home/home-work-showcase";
 import { HomeIssuesGrid } from "@/components/home/home-issues-grid";
 import { HomeAboutPreview } from "@/components/home/home-about-preview";
@@ -26,11 +24,10 @@ export default function HomePage() {
     <main>
       <HomeHero />
       <HomeAboutPreview />
-      <HomeIdeasGrid />
+      <HomeOurPeople />
       <HomeWorkShowcase />
       {/* <HomeCapabilitiesGrid /> */}
       <HomeIssuesGrid />
-      <HomeOurPeople />
       <HomeSuccessPartners />
       <CtaBand />
     </main>

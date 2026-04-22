@@ -155,11 +155,11 @@ export const projects: Project[] = [
     location: "Badr, Egypt",
     summary: "Protection system configuration for the 500kV Badr converter station on Africa's most ambitious cross-continental HVDC interconnection.",
     intro: "Enetic served as Contractor Engineer on the 3GW Egypt\u2013Saudi Arabia HVDC interconnection, responsible for configuring protection systems for the existing 500kV substation and converter station at Badr. Our scope covered the full configuration of AC-side protection relays, development of CID interoperability files, and operational logic diagrams for all Bay Control Units.",
-    heroImage: "/home/ideas/badr-500kv.jpg",
+    heroImage: "/projects/hvdc-egypt-ksa_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1548613053-22087dd8edb8?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg"
+      "/projects/hvdc-egypt-ksa_0.jpeg",
+      "/projects/hvdc-egypt-ksa_1.png",
+      "/projects/hvdc-egypt-ksa_2.jpeg"
     ],
     challenge: "The project required configuring live 500kV protection systems for interoperability with an HVDC converter station without disrupting the existing operational grid.",
     solution: "We prepared complete CID configuration files to IEC 61850 standard, validated relay protection settings, and configured operational logic for all Bay Control Units at the converter station.",
@@ -178,11 +178,11 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Power system and protection coordination studies for the 220/22kV network supplying one of Egypt's first industrial-scale green hydrogen facilities.",
     intro: "As Contractor Engineer for SCATEC's 100 MW green hydrogen project, Enetic conducted 220/22kV power system studies and developed comprehensive protection coordination studies for the MV and LV switchgear networks serving the electrolyzer supply infrastructure.",
-    heroImage: "/home/ideas/green-hydrogen.jpg",
+    heroImage: "/projects/scatec-green-hydrogen_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/renewables-grid.webp"
+      "/projects/scatec-green-hydrogen_0.jpeg",
+      "/projects/scatec-green-hydrogen_1.jpeg",
+      "/projects/scatec-green-hydrogen_2.png"
     ],
     challenge: "Green hydrogen electrolyzers introduce unique harmonic loads and protection coordination challenges that require specialized power quality and system study approaches.",
     solution: "We developed a full protection coordination framework for the MV/LV switchgear feeding the electrolysis process and completed 220/22kV load flow, short circuit, and stability studies.",
@@ -201,11 +201,11 @@ export const projects: Project[] = [
     location: "Cairo, Egypt",
     summary: "Full engineering calculation package and detailed design for a 750 MVA transformer installation at Cairo West's 550/220kV substation, including AIS tubular bus system and BOQ.",
     intro: "Enetic acted as Contractor Engineer on the Cairo West 550/220kV substation upgrade, delivering the complete engineering design package for a 750 MVA power transformer installation. Our scope covered conductor sizing to IEEE 605 and IEC 61597 standards, full mechanical loading analysis, detailed plan and section drawings for the new AIS tubular system, and a comprehensive Bill of Quantities covering all components.",
-    heroImage: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/cairo-west-transformer_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1548613053-22087dd8edb8?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/substation-design.jpeg",
-      "/home/capabilities/power-studies.jpg"
+      "/projects/cairo-west-transformer_0.jpeg",
+      "/projects/cairo-west-transformer_1.jpeg",
+      "/projects/cairo-west-transformer_2.png"
     ],
     challenge: "Accurate mechanical sizing and installation detailing for tubular conductors at 550kV involves complex electrodynamic force calculations and precise integration with existing switchgear bays.",
     solution: "We performed full conductor sizing per IEEE 605 and IEC 61597, calculated mechanical loads including wind and electrodynamic forces, produced detailed installation drawings, and delivered a complete BOQ for procurement.",
@@ -224,11 +224,11 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "High-voltage secondary design package and earthing network commissioning for one of Egypt's largest wind energy projects, delivered to Tractebel Engie.",
     intro: "Enetic acted as Contractor Engineer on the LEKELA 250MW Wind Farm, delivering the complete HV secondary design package, including the earthing network and testing. We also designed and supplied the mechanical interlocking system for the 220/33kV substation and managed handover documentation to Tractebel Engie.",
-    heroImage: "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/lekela-wind-farm_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/substation-design.jpeg",
-      "/home/capabilities/commissioning.png"
+      "/projects/lekela-wind-farm_0.jpeg",
+      "/projects/lekela-wind-farm_1.jpeg",
+      "/projects/lekela-wind-farm_2.jpeg"
     ],
     challenge: "The remote desert environment and scale of the 220/33kV collector substation demanded a precise earthing design and interlock system to ensure safety during live operations.",
     solution: "We delivered the complete HV secondary design package, carried out earthing network testing on site, and designed a custom mechanical interlocking system aligned with substation layouts.",
@@ -247,11 +247,11 @@ export const projects: Project[] = [
     location: "Algeria",
     summary: "High voltage and medium voltage network protective relay setting studies for the 220/11kV substation project in Algeria.",
     intro: "Enetic delivered protection engineering services as Contractor Engineer on the Algeria Cap Dijnet 220/11kV substation project. Our scope focused on HV and MV network protective relay setting studies, ensuring the substation's protection system was correctly coordinated with the existing Algerian grid and met applicable utility interconnection standards.",
-    heroImage: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/algeria-cap-dijnet_0.jpeg",
     gallery: [
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/substation-design.jpeg",
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80"
+      "/projects/algeria-cap-dijnet_0.jpeg",
+      "/projects/algeria-cap-dijnet_1.jpeg",
+      "/projects/algeria-cap-dijnet_2.png"
     ],
     challenge: "Cross-border protection engineering requires strict alignment with the local utility's grid code, relay types, and protection philosophies, which differ from Egyptian standards.",
     solution: "We carried out full HV and MV protective relay setting calculations, validated coordination with upstream and downstream protection, and delivered a compliant relay setting documentation package.",
@@ -270,11 +270,11 @@ export const projects: Project[] = [
     location: "Riyadh, Saudi Arabia",
     summary: "Power system studies and a comprehensive MV/LV network rectification plan for one of the world's most ambitious urban financial districts.",
     intro: "Enetic acted as Contractor Engineer to provide power system and protection coordination studies for the King Abdullah Financial District (KAFD), developing a rectification plan to resolve existing issues in the MV and LV electrical network across the district.",
-    heroImage: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/kafd-saudi-arabia_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/power-studies.jpg"
+      "/projects/kafd-saudi-arabia_0.jpeg",
+      "/projects/kafd-saudi-arabia_1.jpeg",
+      "/projects/kafd-saudi-arabia_2.jpeg"
     ],
     challenge: "The existing MV and LV networks within the operational district had multiple protection and coordination deficiencies requiring a structured, phased rectification approach.",
     solution: "We conducted power system studies, modeled the full MV/LV network, and developed a detailed technical rectification plan with prioritized corrective actions for each deficiency.",
@@ -293,11 +293,11 @@ export const projects: Project[] = [
     location: "Alexandria, Egypt",
     summary: "Power system, power quality, and auxiliary sizing studies for the 220kV/22kV network serving Egypt's first new metropolitan rail line in decades.",
     intro: "Enetic completed a full suite of power system studies for the Alexandria Abu Qir Urban Rail project, covering 220kV/22kV load flow and short-circuit analysis, AC harmonic and ferro-resonance studies, and LV/MV auxiliary system sizing for batteries, chargers, and UPS systems.",
-    heroImage: "/home/ideas/abu-qir-rail.jpg",
+    heroImage: "/projects/abu-qir-urban-rail_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1568992687947-868a62a9f521?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/power-studies.jpg",
-      "/home/capabilities/commissioning.png"
+      "/projects/abu-qir-urban-rail_0.jpeg",
+      "/projects/abu-qir-urban-rail_1.jpeg",
+      "/projects/abu-qir-urban-rail_2.png"
     ],
     challenge: "The project demanded a comprehensive analytical approach to power quality\u2014particularly ferro-resonance and harmonics\u2014to ensure reliable traction power delivery in an urban infill environment.",
     solution: "We conducted voltage drop, short circuit, AC harmonic (THD), ferro-resonance, and auxiliary sizing studies across the full 220/22kV traction network and LV auxiliary systems.",
@@ -316,11 +316,11 @@ export const projects: Project[] = [
     location: "NEOM, Saudi Arabia",
     summary: "Conceptual HV substation design for six utility-scale PV parks connecting to the HVDC backbone of NEOM during the pre-development stage.",
     intro: "Enetic served as the High Voltage Pre-Development Consultant for the TABUK 22 GW Solar program, providing conceptual design of the AC high-voltage interconnection substations for six PV parks that will feed into the HVDC backbone network of NEOM.",
-    heroImage: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/tabuk-solar-neom_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/substation-design.jpeg"
+      "/projects/tabuk-solar-neom_0.jpeg",
+      "/projects/tabuk-solar-neom_1.jpeg",
+      "/projects/tabuk-solar-neom_2.jpeg"
     ],
     challenge: "Each of the six PV parks required an independently viable HV interconnection concept while remaining compatible with a shared HVDC backbone under evolving project parameters.",
     solution: "We developed conceptual substation designs for all six parks, defining the HV bus configurations, transformer specifications, and HVDC interface requirements for the pre-development submission.",
@@ -339,11 +339,11 @@ export const projects: Project[] = [
     location: "Aswan, Egypt",
     summary: "Two-year owner's advisory engagement covering power quality monitoring, metering analysis, and operations support at the world's largest photovoltaic park at contract date.",
     intro: "Enetic served as Offtaker Consultant at the BENBAN Solar Complex for two years during its operational phase. Our scope included power quality monitoring, metering system analysis, invoicing system oversight, capacity building for the operations team, and ongoing support at the local monitoring center.",
-    heroImage: "/home/capabilities/renewables-grid.webp",
+    heroImage: "/projects/benban-solar_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/power-studies.jpg"
+      "/projects/benban-solar_0.jpeg",
+      "/projects/benban-solar_1.jpeg",
+      "/projects/benban-solar_2.jpeg"
     ],
     challenge: "Operating a 2GW solar park at the EETC interface required real-time power quality oversight, complex invoicing validation, and continuous technical support for a growing operational team.",
     solution: "We embedded within the operations structure, delivering power quality monitoring, metering system validation, and structured capacity-building training for the site engineering team.",
@@ -362,11 +362,11 @@ export const projects: Project[] = [
     location: "Lagos, Nigeria",
     summary: "Secondary system design, cable documentation, protection relay settings, and load flow and short-circuit studies for the 132kV substations of Eko Atlantic City.",
     intro: "Enetic served as Contractor Engineer on the Nigeria Eko Atlantic City power grid project, delivering the full secondary system design package for the 132kV substations. Our scope included interfacing and documentation for LV power and control cables, protection relay settings, load flow and short-circuit studies, and coordination analysis for reliable operation.",
-    heroImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/nigeria-eko-atlantic_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1548613053-22087dd8edb8?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/substation-design.jpeg"
+      "/projects/nigeria-eko-atlantic_0.jpeg",
+      "/projects/nigeria-eko-atlantic_1.jpeg",
+      "/projects/nigeria-eko-atlantic_2.jpeg"
     ],
     challenge: "Designing for a new urban coastal district required integrating 132kV infrastructure with future-proofed capacity, ensuring coordination with the existing Nigerian utility network.",
     solution: "We delivered the secondary system design package, produced cable layout and termination documentation with BOQ, performed protection relay setting calculations, and completed load flow and short-circuit coordination studies.",
@@ -385,11 +385,10 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Techno-economic assessment of microgrid options for Egypt's largest oil and gas producer, evaluating CAPEX, OPEX, and return on investment across multiple grid architectures.",
     intro: "Enetic served as Owner Energy Consultant to Egypt's largest oil and gas producer for the Al Razak field, conducting a detailed techno-economic assessment of different microgrid solutions ranging from centralized to decentralized architectures and conventional to renewable integration strategies.",
-    heroImage: "/home/ideas/oil-gas.jpg",
+    heroImage: "/projects/al-razak-oil-gas_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1594818379496-da1e345b0ded?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/owners-engineer.jpg",
-      "/home/capabilities/power-studies.jpg"
+      "/projects/al-razak-oil-gas_0.jpeg",
+      "/projects/al-razak-oil-gas_1.jpeg"
     ],
     challenge: "The field required a reliable, cost-effective power supply strategy that could accommodate varying load demand, fuel cost exposure, and integration of renewable generation options.",
     solution: "We assessed multiple microgrid architectures across technical studies (load balance, grid stability, power quality) and economic evaluation (CAPEX, OPEX, lifecycle cost, ROI, payback period).",
@@ -408,11 +407,11 @@ export const projects: Project[] = [
     location: "Abo Rawash, Egypt",
     summary: "Owner consultancy for a 35MW waste-to-energy power plant, covering techno-economic design for the evacuation network and power system studies for utility interconnection.",
     intro: "Enetic served as Owner Consultant for the 35MW Abo Rawash Waste-to-Energy Power Plant. Our scope included the techno-economic design of the optimum evacuation network through adjacent substations, and comprehensive power system studies to ensure compliant interconnection with the utility grid.",
-    heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/abo-rawash-waste_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/power-studies.jpg",
-      "/home/capabilities/owners-engineer.jpg"
+      "/projects/abo-rawash-waste_0.jpeg",
+      "/projects/abo-rawash-waste_1.jpeg",
+      "/projects/abo-rawash-waste_2.jpeg"
     ],
     challenge: "Waste-to-energy plants have variable generation profiles that require careful network evacuation design and protection coordination with the existing substation infrastructure.",
     solution: "We conducted a techno-economic assessment of grid evacuation options via adjacent substations and performed power system studies covering interconnection requirements for utility compliance.",
@@ -431,11 +430,11 @@ export const projects: Project[] = [
     location: "Muscat, Oman",
     summary: "Shore-to-ship power supply design, 11kV underground cable network, and LV distribution system for the Royal Navy of Oman's main harbour facility.",
     intro: "Acting as Sub-Consultant to the main consultant, Enetic designed the complete shore-to-ship power supply system and prepared the EPC tender package. Our scope included development of the 11kV underground cable network aligned with the master plan and road layouts, definition of substation types and locations, and design of the LV cable network.",
-    heroImage: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/sultan-qaboos-naval_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1564121211835-e88c852648ab?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/substation-design.jpeg",
-      "/home/capabilities/owners-engineer.jpg"
+      "/projects/sultan-qaboos-naval_0.jpeg",
+      "/projects/sultan-qaboos-naval_1.jpeg",
+      "/projects/sultan-qaboos-naval_2.jpeg"
     ],
     challenge: "Naval shore power requirements differ significantly from standard commercial installations, with strict specifications for vessel compatibility, reliability, and security of supply.",
     solution: "We designed the full 11kV underground cable network, defined substation counts, types, and locations, produced LV network drawings, and prepared complete power distribution specifications for EPC tendering.",
@@ -454,11 +453,11 @@ export const projects: Project[] = [
     location: "Zimbabwe",
     summary: "High voltage and medium voltage network protective relay setting studies for a PV-connected 132/33kV substation project in Zimbabwe.",
     intro: "Enetic acted as Contractor Engineer on the Zimbabwe PV 132/33kV substation project, delivering HV and MV network protective relay setting studies to ensure the substation protection system operates correctly and in coordination with the national grid.",
-    heroImage: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/zimbabwe-pv_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/substation-design.jpeg"
+      "/projects/zimbabwe-pv_0.jpeg",
+      "/projects/zimbabwe-pv_1.jpeg",
+      "/projects/zimbabwe-pv_2.jpeg"
     ],
     challenge: "Coordinating relay settings for a PV-connected substation in a developing market requires balancing international best practice with local utility capability and grid conditions.",
     solution: "We completed comprehensive HV and MV protective relay setting studies and provided a deliverable package aligned with the main contractor's coordination requirements and local utility specifications.",
@@ -477,11 +476,11 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Complete owner consultation for a 1.5MW off-grid combined heat and power gas generator plant at DAMFI Food Factory, covering engine, chilled water, and steam systems.",
     intro: "Enetic served as Owner Consultant for the 1.5MW off-grid CHP gas generator installation at DAMFI Food Factory. Our engagement covered the full owner consultation scope across the engine system, chilled water system, and steam system, ensuring technical compliance, reliable power independence, and optimum energy utilisation for the factory's industrial processes.",
-    heroImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/gas-chp-damfi_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/owners-engineer.jpg",
-      "/home/capabilities/commissioning.png"
+      "/projects/gas-chp-damfi_0.jpeg",
+      "/projects/gas-chp-damfi_1.jpeg",
+      "/projects/gas-chp-damfi_2.jpeg"
     ],
     challenge: "Off-grid CHP systems for food manufacturing must maintain continuous, stable power and thermal output to protect production processes, cold chain systems, and steam-dependent operations.",
     solution: "We provided complete owner consultation across engine selection, chilled water engineering, and steam system integration, coordinating between equipment vendors and the factory's operational requirements.",
@@ -500,11 +499,11 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Owner consultation for a 3MW on-grid combined heat and power gas generator plant and factory extension LV system design for BARIQ Factory.",
     intro: "As Owner Consultant to the developer, Enetic provided complete technical oversight for the 3MW on-grid CHP gas generator installation at BARIQ Factory. Our scope encompassed the engine system, chilled water system, and steam system consultation, plus the design of the low voltage electrical system for the factory extension.",
-    heroImage: "https://images.unsplash.com/photo-1611462985358-57a7f2a5a545?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/gas-chp-bariq_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/owners-engineer.jpg",
-      "/home/capabilities/substation-design.jpeg"
+      "/projects/gas-chp-bariq_0.jpeg",
+      "/projects/gas-chp-bariq_1.jpeg",
+      "/projects/gas-chp-bariq_2.jpeg"
     ],
     challenge: "On-grid CHP systems require precise reverse power protection and interconnection compliance to operate safely alongside the utility while maximising the factory's energy cost savings.",
     solution: "We delivered full owner consultation across engine, chilled water, and steam systems, and completed the LV electrical design package for the factory extension including distribution boards and cable sizing.",
@@ -523,11 +522,11 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Balance-of-plant MV network design, power system studies, earthing system design, and lightning protection design for ENI's 15MW solar power plant in Egypt.",
     intro: "Enetic served as Contractor Engineer for ENI's 15MW solar power plant in Egypt, responsible for the balance-of-plant (BOP) MV network design, comprehensive power system studies, plant earthing system design, and lightning protection system design.",
-    heroImage: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/eni-solar_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/power-studies.jpg",
-      "/home/capabilities/substation-design.jpeg"
+      "/projects/eni-solar_0.jpeg",
+      "/projects/eni-solar_1.jpeg",
+      "/projects/eni-solar_2.jpeg"
     ],
     challenge: "BOP MV network design for solar plants requires careful coordination between inverter output characteristics, collector cable sizing, and protection to optimise energy yield and grid compliance.",
     solution: "We completed BOP MV network design and power system studies, designed the plant earthing network to IEC standards, and developed the lightning protection system aligned with the site layout.",
@@ -546,11 +545,11 @@ export const projects: Project[] = [
     location: "Sharm El Sheikh, Egypt",
     summary: "BOP system conceptual design, value engineering, and interconnection studies with the Egyptian Electrical Authority for the solar plant powering the COP27 climate summit.",
     intro: "Enetic acted as Owner Consultant for the developer on the 5MW solar power plant supplying the COP27 climate conference at Sharm El Sheikh. Our scope covered BOP system conceptual design, value engineering to optimise the plant configuration, and interconnection studies with the Electrical Authority to secure compliant grid connection.",
-    heroImage: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/cop27-solar_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/renewables-grid.webp",
-      "/home/capabilities/power-studies.jpg"
+      "/projects/cop27-solar_0.jpeg",
+      "/projects/cop27-solar_1.png",
+      "/projects/cop27-solar_2.jpeg"
     ],
     challenge: "Delivering reliable renewable power for a major international summit required fast-track design, utility interconnection approval, and a technically sound BOP configuration under strict timelines.",
     solution: "We delivered conceptual BOP system design with value engineering for the developer, and completed interconnection studies to secure authority approval for grid connection ahead of the event.",
@@ -569,11 +568,10 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "EPC solution for reverse power protection design, supply, testing, and commissioning for 8 waste heat recovery micro turbines interconnected with the high voltage utility at SANMAR Petrochemicals.",
     intro: "Enetic delivered a full EPC solution scope for SANMAR Petrochemicals Factory, addressing the reverse power protection challenge for 8 waste heat recovery micro turbines connected to the high voltage utility. Our scope included design, supply, testing, and commissioning of the complete reverse power protection solution.",
-    heroImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/sanmar-turbines_1.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/commissioning.png"
+      "/projects/sanmar-turbines_1.jpeg",
+      "/projects/sanmar-turbines_0.png"
     ],
     challenge: "Eight micro turbines operating simultaneously on a high-voltage utility interconnection creates complex reverse power protection requirements that must prevent anti-islanding and protect the utility network.",
     solution: "We designed, supplied, tested, and commissioned a complete reverse power protection solution for all 8 micro turbines, ensuring full compliance with HV utility interconnection requirements.",
@@ -592,11 +590,10 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "EPC solution for reverse power protection design, supply, testing, and commissioning for a 12MW co-generation gas turbine interconnected with the high voltage utility.",
     intro: "Enetic executed a full EPC solution for Interstate Paper Factory's 12MW co-generation gas turbine interconnection with the high voltage utility. Our scope covered design, supply, testing, and commissioning of the reverse power protection solution, ensuring the gas turbine co-generation system operates safely and in compliance with utility interconnection standards.",
-    heroImage: "https://images.unsplash.com/photo-1611168520994-b1e3f1a3f8a5?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/projects/interstate-paper_0.jpeg",
     gallery: [
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
-      "/home/capabilities/protection-scada.jpg",
-      "/home/capabilities/commissioning.png"
+      "/projects/interstate-paper_0.jpeg",
+      "/projects/interstate-paper_1.jpeg"
     ],
     challenge: "A 12MW co-generation interconnection at high voltage requires robust reverse power protection to prevent power flow back to the utility during fault conditions or load shedding events.",
     solution: "We designed and delivered the complete reverse power protection EPC package \u2014 from engineering specification through equipment supply, site testing, and final commissioning handover.",
@@ -976,8 +973,8 @@ export const projects: Project[] = [
     location: "Egypt",
     summary: "Specialist manpower supply for high-voltage equipment testing and protection verification tasks.",
     intro: "Enetic supplied experienced high-voltage testing engineers to support project teams during testing, commissioning, and troubleshooting programs.",
-    heroImage: "/home/capabilities/commissioning.png",
-    gallery: ["/home/capabilities/commissioning.png", "/home/capabilities/protection-scada.jpg", "/home/capabilities/substation-design.jpeg"],
+    heroImage: "/projects/pdf-crops/page30_card3.jpg",
+    gallery: ["/projects/pdf-crops/page30_card3.jpg"],
     challenge: "Projects often faced resource constraints during critical testing windows where specialist skills were required immediately.",
     solution: "We mobilised qualified testing engineers with practical field experience in HV equipment and protection systems.",
     impact: "Teams maintained schedule momentum and improved execution quality during critical test phases.",
@@ -1451,7 +1448,7 @@ export const homeIntro = {
   heroTitle: "Advanced engineering, design and advisory services for future-ready power infrastructure.",
   heroDescription:
     "Enetic is a power systems consultancy delivering high- and medium-voltage network expertise across substations, grid studies, commissioning support, microgrids, and green energy integration.",
-  heroVideo: "https://res.cloudinary.com/dgktdxlxr/video/upload/f_auto,q_auto:eco,w_1600/v1775850550/hero_r6zohr.mp4",
+  heroVideo: "/videos/window%20farm1.mp4",
   heroImage: "https://res.cloudinary.com/dgktdxlxr/video/upload/f_jpg,q_auto:eco,w_1600/v1775850550/hero_r6zohr.jpg"
 };
 

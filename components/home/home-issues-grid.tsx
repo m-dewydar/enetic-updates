@@ -2,10 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { homeIssues } from "@/lib/data";
+import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { industrySectors } from "@/lib/industries";
 import { Reveal } from "@/components/reveal";
 
 export function HomeIssuesGrid() {
+  const [page, setPage] = useState(0);
+  const pageCount = 2;
+  const visibleSectors = industrySectors.slice(page * 3, page * 3 + 3);
+
   return (
     <section className="issues-section has-theme theme-surface-invert">
       <div className="issues-block">
@@ -21,15 +27,35 @@ export function HomeIssuesGrid() {
               </h3>
             </Reveal>
           </div>
+          <div className="issues-controls">
+            <button
+              type="button"
+              className="issues-controls__btn"
+              onClick={() => setPage((current) => (current - 1 + pageCount) % pageCount)}
+              aria-label="Show previous sectors"
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </button>
+            <span className="issues-controls__counter">{page + 1}/{pageCount}</span>
+            <button
+              type="button"
+              className="issues-controls__btn"
+              onClick={() => setPage((current) => (current + 1) % pageCount)}
+              aria-label="Show next sectors"
+            >
+              <ChevronRight className="h-5 w-5" />
+            </button>
+          </div>
         </div>
 
         <div className="issues-cards">
-          {homeIssues.map((item, index) => (
-            <Reveal key={item.title} delay={index * 0.1}>
-              <Link href={item.href} className={`issues-card ${item.theme}`}>
+          {visibleSectors.map((item, index) => (
+            <Reveal key={item.slug} delay={index * 0.1}>
+              <Link href={`/industries/${item.slug}`} className="issues-card issues-card--sector">
                 <div className="issues-card__content">
                   <h4 className="issues-card__subheading">Sector</h4>
-                  <p className="issues-card__title">{item.title}</p>
+                  <p className="issues-card__title">{item.name}</p>
+                  <p className="issues-card__desc">{item.tagline}</p>
                 </div>
                 {item.image && (
                   <div className="issues-card__shape">
@@ -37,7 +63,7 @@ export function HomeIssuesGrid() {
                       <div className="issues-card__image-wrapper">
                         <Image
                           src={item.image}
-                          alt={item.title}
+                          alt={item.name}
                           fill
                           sizes="(max-width: 768px) 240px, 440px"
                           className="issues-card__img"
@@ -49,6 +75,11 @@ export function HomeIssuesGrid() {
               </Link>
             </Reveal>
           ))}
+        </div>
+        <div className="issues-cta-wrap">
+          <Link href="/industries" className="issues-cta">
+            See all sectors
+          </Link>
         </div>
       </div>
     </section>

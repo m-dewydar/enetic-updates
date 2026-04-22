@@ -51,7 +51,8 @@ const regions = [
   { country: "Nigeria", flag: "🇳🇬", role: "Eko Atlantic 132kV program" },
   { country: "Zimbabwe", flag: "🇿🇼", role: "PV 132/33kV substation" },
   { country: "Algeria", flag: "🇩🇿", role: "CAP DIJNET 220/11kV S/S" },
-  { country: "Burkina Faso & Liberia", flag: "🌍", role: "West Africa advisory" },
+  { country: "Burkina Faso", flag: "🇧🇫", role: "West Africa advisory" },
+  { country: "Liberia", flag: "🇱🇷", role: "West Africa advisory" },
 ];
 
 const oems = [
@@ -152,17 +153,28 @@ export default function AboutPage() {
             <Reveal delay={0.1} className="about-story__imgs">
               <div className="about-story__img-main">
                 <Image
-                  src="/home/capabilities/substation-design.jpeg"
-                  alt="Enetic substation engineering"
+                  src="/about/world-map.png"
+                  alt="Map showing countries where Enetic delivered projects"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="about-story__img"
                 />
+                <div className="about-story__map-markers" aria-hidden="true">
+                  <span className="about-story__map-pin" style={{ left: "54%", top: "46%" }}>Egypt</span>
+                  <span className="about-story__map-pin" style={{ left: "59%", top: "46%" }}>Saudi</span>
+                  <span className="about-story__map-pin" style={{ left: "61.5%", top: "49%" }}>Oman</span>
+                  <span className="about-story__map-pin" style={{ left: "57%", top: "45%" }}>Jordan</span>
+                  <span className="about-story__map-pin" style={{ left: "44%", top: "53%" }}>Nigeria</span>
+                  <span className="about-story__map-pin" style={{ left: "50%", top: "63%" }}>Zimbabwe</span>
+                  <span className="about-story__map-pin" style={{ left: "50%", top: "44%" }}>Algeria</span>
+                  <span className="about-story__map-pin" style={{ left: "43%", top: "46%" }}>Burkina Faso</span>
+                  <span className="about-story__map-pin" style={{ left: "39%", top: "49%" }}>Liberia</span>
+                </div>
               </div>
               <div className="about-story__img-sub">
                 <Image
-                  src="/home/capabilities/protection-scada.jpg"
-                  alt="Protection and SCADA systems"
+                  src="/home/capabilities/owners-engineer.jpg"
+                  alt="Engineering teams and project collaboration"
                   fill
                   sizes="(max-width: 1024px) 100vw, 25vw"
                   className="about-story__img"

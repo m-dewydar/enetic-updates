@@ -90,7 +90,7 @@ export function HomeHero() {
             playsInline
             preload="metadata"
             poster={homeIntro.heroImage}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain bg-[#d7ddd8]"
           >
             <source src={homeIntro.heroVideo} type="video/mp4" />
           </video>
@@ -120,7 +120,7 @@ export function HomeHero() {
             playsInline
             preload={showClone ? "none" : "metadata"}
             poster={homeIntro.heroImage}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain bg-[#d7ddd8]"
           >
             {!showClone ? <source src={homeIntro.heroVideo} type="video/mp4" /> : null}
           </video>

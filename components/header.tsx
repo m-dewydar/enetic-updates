@@ -10,20 +10,9 @@ import { cn } from "@/lib/utils";
 
 export function Header() {
   const pathname = usePathname();
-  const [solid, setSolid] = useState(false);
   const [open, setOpen] = useState(false);
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
-
-  useEffect(() => {
-    const onScroll = () => {
-      setSolid(window.scrollY > 32);
-    };
-
-    onScroll();
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     setOpen(false);
@@ -32,17 +21,16 @@ export function Header() {
   return (
     <>
       <header
-        data-solid={solid ? "true" : "false"}
+        data-solid="true"
         className={cn(
-          "fixed inset-x-0 top-0 z-[70] transition-all duration-500 ease-premium",
-          solid ? "border-b border-stone-200/80 bg-stone-50/95 backdrop-blur-2xl" : "bg-transparent"
+          "fixed inset-x-0 top-0 z-[70] border-b border-stone-200 bg-white transition-all duration-300 ease-premium"
         )}
       >
         <div className="container-grid relative z-10">
           <div
             className={cn(
               "flex h-20 items-center justify-between border-b lg:h-[96px]",
-              solid ? "border-stone-200/80" : "border-white/20"
+              "border-stone-200"
             )}
           >
             <div className="flex items-center gap-12 xl:gap-16">
@@ -65,7 +53,6 @@ export function Header() {
                         href={item.href}
                         className={cn(
                           "hdr-link text-[13px] font-bold uppercase tracking-[0.28em] transition-colors duration-300",
-                          !solid && "text-white",
                           isActive(item.href) && "hdr-link--active"
                         )}
                       >
@@ -86,7 +73,6 @@ export function Header() {
                         href={item.href}
                         className={cn(
                           "hdr-link text-[12px] font-bold uppercase tracking-[0.28em] transition-colors duration-300",
-                          !solid && "text-white",
                           isActive(item.href) && "hdr-link--active"
                         )}
                       >
@@ -104,7 +90,7 @@ export function Header() {
                 onClick={() => setOpen((current) => !current)}
                 className={cn(
                   "inline-flex h-11 w-11 items-center justify-center rounded-full border lg:hidden",
-                  solid ? "border-ink/10 bg-white text-ink" : "border-white/20 bg-white/10 text-white"
+                  "border-ink/10 bg-white text-ink"
                 )}
               >
                 {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
