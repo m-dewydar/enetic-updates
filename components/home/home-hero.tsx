@@ -77,7 +77,6 @@ export function HomeHero() {
 
   return (
     <section className="relative overflow-hidden bg-[#f7f3ed] pt-24 text-ink md:pt-28">
-      <link rel="preload" as="image" href={homeIntro.heroImage} fetchPriority="high" />
       {showClone ? (
         <div
           ref={cloneRef}
@@ -89,7 +88,6 @@ export function HomeHero() {
             loop
             playsInline
             preload="metadata"
-            poster={homeIntro.heroImage}
             className="h-full w-full object-cover object-center"
           >
             <source src={homeIntro.heroVideo} type="video/mp4" />
