@@ -1448,7 +1448,7 @@ export const homeIntro = {
   heroTitle: "Advanced engineering, design and advisory services for future-ready power infrastructure.",
   heroDescription:
     "Enetic is a power systems consultancy delivering high- and medium-voltage network expertise across substations, grid studies, commissioning support, microgrids, and green energy integration.",
-  heroVideo: "/videos/window-farm2.mp4",
+  heroVideo: "/videos/window-farm4.mp4",
  
 };
 
