@@ -18,6 +18,8 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
   if (!project) notFound();
 
   const relatedProjects = projects.filter((item) => item.slug !== project.slug).slice(0, 2);
+  const profileImage = project.profileImage ?? project.heroImage;
+  const stakeholderImage = project.stakeholderImage;
   const galleryCount = project.gallery.length;
   const galleryGridClass =
     galleryCount <= 1
@@ -44,6 +46,33 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
 
       <Section className="pt-0">
         <StatStrip stats={project.metrics} />
+      </Section>
+
+      <Section className="bg-[#ebe5dc]">
+        <div className="mb-10">
+          <p className="eyebrow">Project profile</p>
+          <h2 className="mt-4 font-display text-[2rem] md:text-5xl">Profile and stakeholder reference.</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Reveal className="relative h-80 overflow-hidden rounded-[2rem] shadow-panel md:h-[26rem]">
+            <Image
+              src={profileImage}
+              alt={`${project.title} profile image`}
+              fill
+              className="object-contain bg-[#0d1a25] p-2 transition-transform duration-700 hover:scale-105"
+            />
+          </Reveal>
+          {stakeholderImage ? (
+            <Reveal className="relative h-80 overflow-hidden rounded-[2rem] shadow-panel md:h-[26rem]">
+              <Image
+                src={stakeholderImage}
+                alt={`${project.title} client, owner, or consultant image`}
+                fill
+                className="object-contain bg-[#0d1a25] p-2 transition-transform duration-700 hover:scale-105"
+              />
+            </Reveal>
+          ) : null}
+        </div>
       </Section>
 
       <Section className="bg-[#ebe5dc]">

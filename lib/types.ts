@@ -6,6 +6,8 @@ export type Project = {
   summary: string;
   intro: string;
   heroImage: string;
+  profileImage?: string;
+  stakeholderImage?: string;
   gallery: string[];
   challenge: string;
   solution: string;
