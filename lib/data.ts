@@ -1510,7 +1510,7 @@ export const homePeople = [
     specialties: ["Power System Protection", "Grid Integration Studies", "National Electrical Standards", "HV/MV Network Advisory"],
     education: "Ph.D., University of Calgary · M.Sc., Cairo University · B.Sc., Cairo University",
     experience: "28+ years",
-    image: "/people/gilany.jfif",
+    image: "/people/gilany.png",
     cvPdf: "/cv/mahmoud-gilany-cv.pdf",
     linkedin: "https://www.linkedin.com/in/mahmoud-gilany-903393108/"
   },
