@@ -171,7 +171,7 @@ export default function AboutPage() {
                   <span className="about-story__map-pin" style={{ left: "39%", top: "49%" }}>Liberia</span>
                 </div>
               </div>
-              <div className="about-story__img-sub">
+              {/* <div className="about-story__img-sub">
                 <Image
                   src="/home/capabilities/owners-engineer.jpg"
                   alt="Engineering teams and project collaboration"
@@ -179,7 +179,7 @@ export default function AboutPage() {
                   sizes="(max-width: 1024px) 100vw, 25vw"
                   className="about-story__img"
                 />
-              </div>
+              </div> */}
             </Reveal>
           </div>
         </div>
