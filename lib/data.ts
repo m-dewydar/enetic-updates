@@ -1504,7 +1504,7 @@ export const homePeople = [
   {
     name: "Prof. Dr. Mahmoud Elgilany",
     role: "Chief Technical Officer, Enetic Energy Projects",
-    position: "Professor, The American University in Cairo · Professor, Cairo University",
+    position: "Co-Founder | Professor, The American University in Cairo · Professor, Cairo University",
     quote: "Reliable power systems are built on technical depth, rigorous protection philosophy, and disciplined engineering execution.",
     bio: "Prof. Dr. Mahmoud Elgilany is the Chief Technical Officer at Enetic Energy Projects, Professor at Cairo University, and Professor at The American University in Cairo. He currently serves as Head of the Standards Committee at the Ministry of Electricity and leads high-impact advisory and standards work across generation, transmission, and distribution domains. Contact: prof.Gilany@enetic-eg.com | +20 10 05074206.",
     specialties: ["Power System Protection", "Grid Integration Studies", "National Electrical Standards", "HV/MV Network Advisory"],
@@ -1530,7 +1530,7 @@ export const homePeople = [
   {
     name: "Dr. Ismail Mosaed",
     role: "Head of Testing & Commissioning Department, Enetic Energy Projects",
-    position: "Lecturer, Helwan University (Power Department)",
+    position: "Co-Founder | Lecturer, Helwan University (Power Department)",
     quote: "Commissioning excellence ensures every design decision translates into safe and dependable operation.",
     bio: "Dr. Ismail Mosaed leads the Testing and Commissioning Department at Enetic Energy Projects and lectures in the Power Department at Helwan University. He focuses on commissioning readiness, energization safety, and performance validation for high- and medium-voltage systems. Contact: ismail.mosaed@enetic-eg.com | +20 11 26377178.",
     specialties: ["Testing and Commissioning", "Protection Validation", "HV/MV System Energization", "Operational Readiness"],
