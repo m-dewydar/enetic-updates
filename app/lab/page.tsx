@@ -19,7 +19,7 @@ const equipment = [
     ],
     standard: "IEC 60255 / IEC 61850",
     icon: "⚡",
-    image: "/home/capabilities/protection-scada.jpg",
+    image: "/projects/presentation/test1.png",
   },
   {
     id: "ct-vt-analyzer",
@@ -36,7 +36,7 @@ const equipment = [
     ],
     standard: "IEC 60044 / IEC 61869",
     icon: "🔍",
-    image: "/home/capabilities/substation-design.jpeg",
+    image: "/projects/presentation/test2.jpg",
   },
   {
     id: "timing-tester",
@@ -53,7 +53,7 @@ const equipment = [
     ],
     standard: "IEC 62271 / IEEE C37.09",
     icon: "⏱",
-    image: "/home/capabilities/commissioning-better.jpg",
+    image: "/projects/presentation/test3.png",
   },
   {
     id: "primary-injection",
@@ -70,7 +70,7 @@ const equipment = [
     ],
     standard: "IEC 60255 / IEEE C57.13",
     icon: "🔋",
-    image: "/home/capabilities/commissioning-better.jpg",
+    image: "/projects/presentation/test4.png",
   },
   {
     id: "earthing-tester",
@@ -87,7 +87,7 @@ const equipment = [
     ],
     standard: "IEEE Std 80 / BS 7430",
     icon: "🌍",
-    image: "/home/capabilities/power-studies.jpg",
+    image: "/projects/presentation/test5.png",
   },
   {
     id: "power-analyzer",
@@ -104,7 +104,7 @@ const equipment = [
     ],
     standard: "IEC 61000-4-30 Class A / EN 50160",
     icon: "📊",
-    image: "/home/capabilities/renewables-grid.webp",
+    image: "/projects/presentation/test6.png",
   },
   {
     id: "battery-tester",
@@ -121,76 +121,76 @@ const equipment = [
     ],
     standard: "IEC 62485 / IEEE 1188",
     icon: "🔋",
-    image: "/home/capabilities/owners-engineer.jpg",
+    image: "/projects/presentation/test7.png",
   },
-  {
-    id: "dc-load-bank",
-    name: "DC Load Bank",
-    model: "220VDC 100A / 48VDC 120A",
-    manufacturer: "Multi-brand",
-    description:
-      "Programmable DC load bank for controlled discharge tests of battery banks and DC systems in substations, validating backup autonomy and system stability.",
-    tests: [
-      "Battery discharge capacity verification",
-      "DC bus stability under dynamic loading",
-      "Voltage drop profiling during sustained load",
-      "Autonomy checks for protection and control DC systems",
-    ],
-    standard: "IEEE 1188 / IEC 62485",
-    icon: "🧪",
-    image: "/home/capabilities/power-studies.jpg",
-  },
-  {
-    id: "transformer-tester",
-    name: "Transformer Ratio & Winding Resistance Tester",
-    model: "TTR / DLRO Combo",
-    manufacturer: "Multi-brand",
-    description:
-      "Combined turns ratio and DC winding resistance measurement for power transformers — identifies shorted turns, tap-changer defects, and winding anomalies.",
-    tests: [
-      "Transformer turns ratio (TTR) at all tap positions",
-      "DC winding resistance — HV and LV sides",
-      "Tap-changer contact resistance",
-      "No-load current and magnetising impedance",
-    ],
-    standard: "IEC 60076 / IEEE C57.12",
-    icon: "⚙️",
-    image: "/home/capabilities/substation-design.jpeg",
-  },
-  {
-    id: "contact-resistance",
-    name: "Contact Resistance Tester — 600A",
-    model: "DLRO 600",
-    manufacturer: "Megger",
-    description:
-      "600A DC micro-ohmmeter for measuring contact resistance in HV circuit breakers, isolators, busbar connections, and cable joints with four-terminal precision.",
-    tests: [
-      "Circuit breaker main contact resistance",
-      "Isolator and disconnector contact resistance",
-      "Busbar bolted joint resistance",
-      "Cable termination and lug resistance",
-    ],
-    standard: "IEC 62271-100 / IEEE C37.09",
-    icon: "🔌",
-    image: "/home/capabilities/commissioning-better.jpg",
-  },
-  {
-    id: "insulation-tester",
-    name: "Insulation Resistance Tester",
-    model: "Series 5 Megger",
-    manufacturer: "Megger",
-    description:
-      "High-voltage insulation resistance testing for cables, transformers, switchgear, and rotating machines up to 15kV DC test voltage with PI and DAR analysis.",
-    tests: [
-      "HV cable insulation resistance testing",
-      "Transformer winding insulation assessment",
-      "Switchgear and busbar panel insulation",
-      "Polarisation Index (PI) and DAR calculation",
-    ],
-    standard: "IEC 60060 / IEEE 43",
-    icon: "🛡",
-    image: "/home/capabilities/protection-scada.jpg",
-  },
+  // {
+  //   id: "dc-load-bank",
+  //   name: "DC Load Bank",
+  //   model: "220VDC 100A / 48VDC 120A",
+  //   manufacturer: "Multi-brand",
+  //   description:
+  //     "Programmable DC load bank for controlled discharge tests of battery banks and DC systems in substations, validating backup autonomy and system stability.",
+  //   tests: [
+  //     "Battery discharge capacity verification",
+  //     "DC bus stability under dynamic loading",
+  //     "Voltage drop profiling during sustained load",
+  //     "Autonomy checks for protection and control DC systems",
+  //   ],
+  //   standard: "IEEE 1188 / IEC 62485",
+  //   icon: "🧪",
+  //   image: "/projects/presentation/image74.jpg",
+  // },
+  // {
+  //   id: "transformer-tester",
+  //   name: "Transformer Ratio & Winding Resistance Tester",
+  //   model: "TTR / DLRO Combo",
+  //   manufacturer: "Multi-brand",
+  //   description:
+  //     "Combined turns ratio and DC winding resistance measurement for power transformers — identifies shorted turns, tap-changer defects, and winding anomalies.",
+  //   tests: [
+  //     "Transformer turns ratio (TTR) at all tap positions",
+  //     "DC winding resistance — HV and LV sides",
+  //     "Tap-changer contact resistance",
+  //     "No-load current and magnetising impedance",
+  //   ],
+  //   standard: "IEC 60076 / IEEE C57.12",
+  //   icon: "⚙️",
+  //   image: "/projects/presentation/image75.jpg",
+  // },
+  // {
+  //   id: "contact-resistance",
+  //   name: "Contact Resistance Tester — 600A",
+  //   model: "DLRO 600",
+  //   manufacturer: "Megger",
+  //   description:
+  //     "600A DC micro-ohmmeter for measuring contact resistance in HV circuit breakers, isolators, busbar connections, and cable joints with four-terminal precision.",
+  //   tests: [
+  //     "Circuit breaker main contact resistance",
+  //     "Isolator and disconnector contact resistance",
+  //     "Busbar bolted joint resistance",
+  //     "Cable termination and lug resistance",
+  //   ],
+  //   standard: "IEC 62271-100 / IEEE C37.09",
+  //   icon: "🔌",
+  //   image: "/projects/presentation/image73.jpg",
+  // },
+  // {
+  //   id: "insulation-tester",
+  //   name: "Insulation Resistance Tester",
+  //   model: "Series 5 Megger",
+  //   manufacturer: "Megger",
+  //   description:
+  //     "High-voltage insulation resistance testing for cables, transformers, switchgear, and rotating machines up to 15kV DC test voltage with PI and DAR analysis.",
+  //   tests: [
+  //     "HV cable insulation resistance testing",
+  //     "Transformer winding insulation assessment",
+  //     "Switchgear and busbar panel insulation",
+  //     "Polarisation Index (PI) and DAR calculation",
+  //   ],
+  //   standard: "IEC 60060 / IEEE 43",
+  //   icon: "🛡",
+  //   image: "/projects/presentation/image74.jpg",
+  // },
 ];
 
 const labServices = [
@@ -232,7 +232,7 @@ export default function TestingLabPage() {
       <section className="lab-hero">
         <div className="lab-hero__bg">
           <Image
-            src="/home/capabilities/commissioning-better.jpg"
+            src="/projects/presentation/image75.jpg"
             alt="Enetic Testing Laboratory"
             fill
             priority

@@ -32,7 +32,7 @@ const industries = [
       { slug: "tabuk-solar-neom", name: "TABUK 22GW Solar — NEOM" },
       { slug: "hvdc-egypt-ksa", name: "3GW HVDC Egypt–KSA" },
     ],
-    image: "/home/capabilities/renewables-grid.webp",
+    image: "/projects/presentation/image85.jpg",
     accent: "#4a9a6a",
   },
   {
@@ -62,7 +62,7 @@ const industries = [
       { slug: "lekela-wind-farm", name: "LEKELA 220/33kV Collector S/S" },
       { slug: "sultan-qaboos-naval-base", name: "Sultan Qaboos Naval Base 11kV" },
     ],
-    image: "/home/capabilities/substation-design.jpeg",
+    image: "/projects/presentation/industries_image.jpeg",
     accent: "#3a78c4",
   },
   {
@@ -90,7 +90,7 @@ const industries = [
       { slug: "abu-qir-urban-rail", name: "Alexandria Abu Qir Urban Rail" },
       { slug: "cairo-metro-line3", name: "Cairo Metro Line 3 — Phase 3B" },
     ],
-    image: "/home/ideas/abu-qir-rail.jpg",
+    image: "/projects/presentation/industries1.jpg",
     accent: "#c47a3a",
   },
   {
@@ -117,7 +117,7 @@ const industries = [
     projects: [
       { slug: "al-razak-oil-gas-microgrid", name: "Al Razak 25MW Oil & Gas Microgrid" },
     ],
-    image: "/home/ideas/oil-gas.jpg",
+    image: "/projects/presentation/industries3.jpg",
     accent: "#c4643a",
   },
   {
@@ -142,7 +142,7 @@ const industries = [
     ],
     clients: ["SANMAR Petrochemicals", "Interstate Paper", "BARIQ Factory", "DAMFI Food Factory", "Heidelberg Materials"],
     projects: [],
-    image: "/home/capabilities/commissioning-better.jpg",
+    image: "/projects/presentation/industries2.jpg",
     accent: "#6a4a9a",
   },
   {
@@ -170,7 +170,7 @@ const industries = [
       { slug: "sultan-qaboos-naval-base", name: "Sultan Qaboos Naval Base Harbour" },
       { slug: "kafd-saudi-arabia", name: "King Abdullah Financial District" },
     ],
-    image: "/home/capabilities/owners-engineer.jpg",
+    image: "/projects/presentation/industries1.jpg",
     accent: "#3a8a9a",
   },
 ];

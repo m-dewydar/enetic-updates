@@ -13,7 +13,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "Solar, Wind, Green Hydrogen & HVDC",
     summary:
       "Grid integration studies, HV concept design, and technical delivery for utility-scale renewable and hydrogen programs.",
-    image: "/home/capabilities/renewables-grid.webp",
+    image: "/projects/presentation/image85.jpg",
   },
   {
     slug: "high-voltage-networks",
@@ -21,7 +21,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "500kV / 220kV / 132kV Infrastructure",
     summary:
       "Protection, SCADA, and full secondary design packages for high-voltage substations and transmission systems.",
-    image: "/home/capabilities/substation-design.jpeg",
+    image: "/projects/presentation/image85.jpg",
   },
   {
     slug: "urban-mobility",
@@ -29,7 +29,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "Metro & Rail Power Networks",
     summary:
       "Power engineering for urban transport systems including traction studies, protection, and auxiliary system design.",
-    image: "/home/ideas/abu-qir-rail.jpg",
+    image: "/projects/presentation/image85.jpg",
   },
   {
     slug: "oil-gas",
@@ -37,7 +37,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "Field Microgrids & CHP",
     summary:
       "Owner engineering and techno-economic advisory for oil and gas field power infrastructure and microgrids.",
-    image: "/home/ideas/oil-gas.jpg",
+    image: "/projects/presentation/image89.jpg",
   },
   {
     slug: "industrial",
@@ -45,7 +45,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "Petrochemicals, Plants & Manufacturing",
     summary:
       "MV/LV protection, quality, and commissioning support for critical industrial and manufacturing operations.",
-    image: "/home/capabilities/commissioning-better.jpg",
+    image: "/projects/presentation/image89.jpg",
   },
   {
     slug: "naval-infrastructure",
@@ -53,7 +53,7 @@ export const industrySectors: IndustrySector[] = [
     tagline: "Harbour Power & Special Projects",
     summary:
       "Electrical infrastructure design for naval bases, urban districts, and complex international projects.",
-    image: "/home/capabilities/owners-engineer.jpg",
+    image: "/projects/presentation/image76.jpg",
   },
 ];
 

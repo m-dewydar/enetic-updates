@@ -4326,13 +4326,15 @@ video {
 .lab-hero__bg {
   position: absolute;
   inset: 0;
+  background: #0b1118;
 }
 .lab-hero__img {
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   transition: transform 8s ease;
 }
 .lab-hero:hover .lab-hero__img {
-  transform: scale(1.04);
+  transform: none;
 }
 .lab-hero__overlay {
   position: absolute;
@@ -4481,13 +4483,16 @@ video {
   height: 13rem;
   overflow: hidden;
   flex-shrink: 0;
+  background: #0b1118;
 }
 .lab-eq-card__img {
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  padding: 0.5rem;
   transition: transform 0.85s var(--ease-premium);
 }
 .lab-eq-card:hover .lab-eq-card__img {
-  transform: scale(1.06);
+  transform: none;
 }
 .lab-eq-card__img-overlay {
   position: absolute;

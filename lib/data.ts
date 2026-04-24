@@ -7,7 +7,7 @@ export const services: Service[] = [
     strapline: "Analysis-first engineering to validate design decisions before they reach the grid.",
     summary:
       "We deliver comprehensive power system studies across load flow, short circuit, protection coordination, power quality, and stability — giving clients the technical assurance to advance projects with confidence.",
-    heroImage: "/home/capabilities/power-studies.jpg",
+    heroImage: "/projects/presentation/image73.jpg",
     capabilities: [
       "Load flow & voltage drop analysis",
       "Short circuit & fault level studies",
@@ -31,7 +31,7 @@ export const services: Service[] = [
     strapline: "Detailed engineering for high- and medium-voltage substations from concept to IFC.",
     summary:
       "From 500kV converter stations to compact 22kV indoor switchrooms, we deliver the full secondary design package — protection panels, control wiring, earthing networks, single-line diagrams, and EPC tender documentation.",
-    heroImage: "/home/capabilities/substation-design.jpeg",
+    heroImage: "/projects/presentation/image74.jpg",
     capabilities: [
       "Primary and secondary single-line diagrams",
       "Protection and control panel design",
@@ -55,7 +55,7 @@ export const services: Service[] = [
     strapline: "Intelligent control and protection systems for modern power infrastructure.",
     summary:
       "We configure and commission bay control units, protection relays, and SCADA systems to IEC 61850, enabling smart grid functionality, remote monitoring, and rapid fault isolation across HV and MV networks.",
-    heroImage: "/home/capabilities/protection-scada.jpg",
+    heroImage: "/projects/presentation/image75.jpg",
     capabilities: [
       "IEC 61850 configuration (CID, SCD files)",
       "Bay Control Unit (BCU) logic configuration",
@@ -79,7 +79,7 @@ export const services: Service[] = [
     strapline: "On-site verification and handover for HV/MV electrical systems.",
     summary:
       "We manage and execute pre-commissioning, commissioning, and acceptance testing for substations, protection systems, and power networks — ensuring every system is validated against design before energisation.",
-      heroImage: "/home/capabilities/commissioning-better.jpg",
+      heroImage: "/projects/presentation/image76.jpg",
     capabilities: [
       "Pre-commissioning test plans and procedures",
       "HV/MV protection system commissioning",
@@ -103,7 +103,7 @@ export const services: Service[] = [
     strapline: "Independent technical oversight from development through commercial operation.",
     summary:
       "We act as the technical eyes of project owners, developers, and lenders — reviewing contractor designs, supervising construction, monitoring commissioning, and providing the independent assurance that drives investment confidence.",
-      heroImage: "/home/capabilities/owners-engineer-better.jpg",
+      heroImage: "/projects/presentation/image80.jpg",
     capabilities: [
       "Design review and technical auditing",
       "Contractor assessment and procurement support",
@@ -127,7 +127,7 @@ export const services: Service[] = [
     strapline: "Technical advisory for renewable generation, green hydrogen, and grid-connected assets.",
     summary:
       "We support the full development and delivery chain for renewable energy projects — from pre-development HV conceptual design and power system studies to commissioning support and operational advisory for solar, wind, and green hydrogen assets.",
-      heroImage: "/home/capabilities/renewables-better.jpeg",
+      heroImage: "/projects/presentation/image85.jpg",
     capabilities: [
       "Pre-development HV conceptual design",
       "Grid connection and utility interface studies",
@@ -1515,11 +1515,11 @@ export const homePeople = [
     linkedin: "https://www.linkedin.com/in/mahmoud-gilany-903393108/"
   },
   {
-    name: "Mr. Mohamed Shafey",
+    name: "Eng. Mohamed Shafey",
     role: "Head of Engineering Department, Enetic Energy Projects",
     position: "Co-Founder | Engineering Management and Delivery",
     quote: "Engineering quality is proven when design, construction, and commissioning perform together under real operating conditions.",
-    bio: "Mr. Mohamed Shafey is Head of Engineering at Enetic Energy Projects with practical experience in engineering, construction, testing, and commissioning for high- and medium-voltage networks in Egypt and Saudi Arabia. His portfolio covers utility interconnection design, secondary design for substations, and delivery leadership across renewable and industrial energy projects. Contact: MohammedShafie2@Gmail.com | +20 11 20085337.",
+    bio: "Eng. Mohamed Shafey is Head of Engineering at Enetic Energy Projects with practical experience in engineering, construction, testing, and commissioning for high- and medium-voltage networks in Egypt and Saudi Arabia. His portfolio covers utility interconnection design, secondary design for substations, and delivery leadership across renewable and industrial energy projects. Contact: MohammedShafie2@Gmail.com | +20 11 20085337.",
     specialties: ["HV/MV Network Design", "Protection and Metering Schemes", "Testing and Commissioning", "Energy Project BOP Engineering"],
     education: "B.Sc. Electrical Power and Machines Engineering, Helwan University",
     experience: "16+ years",
