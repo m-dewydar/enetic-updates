@@ -874,21 +874,27 @@ video {
 @media (min-width: 768px) { .op-card { width: 340px; } }
 @media (min-width: 1280px) { .op-card { width: 390px; } }
 
-/* Clickable image wrapper */
+/* Clickable image wrapper — circular portrait, face-forward crop */
 .op-card__img-wrap {
   position: relative;
-  width: 100%;
-  aspect-ratio: 3 / 4;
+  width: min(100%, 300px);
+  margin-inline: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
   overflow: hidden;
   background: var(--color-steel);
   border: none;
   padding: 0;
   cursor: pointer;
   display: block;
+  box-shadow:
+    0 6px 28px rgba(11, 23, 33, 0.1),
+    0 0 0 1px rgba(11, 23, 33, 0.06);
 }
 
 .op-card__img {
   object-fit: cover;
+  object-position: center 22%;
   transition: transform 0.85s var(--ease-premium);
 }
 .op-card__img-wrap:hover .op-card__img {
@@ -936,9 +942,10 @@ video {
   flex-shrink: 0;
 }
 
-/* Text body */
+/* Text body — centered under round portraits */
 .op-card__body {
   padding: 1.25rem 0 0;
+  text-align: center;
 }
 .op-card__name {
   font-family: var(--font-display);
@@ -1837,14 +1844,20 @@ video {
 
 .pc-card__img-wrap {
   position: relative;
-  width: 100%;
-  aspect-ratio: 3 / 4;
+  width: min(100%, 300px);
+  margin-inline: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
   overflow: hidden;
   background: var(--color-steel);
+  box-shadow:
+    0 6px 28px rgba(11, 23, 33, 0.1),
+    0 0 0 1px rgba(11, 23, 33, 0.06);
 }
 
 .pc-card__img {
   object-fit: cover;
+  object-position: center 22%;
   transition: transform 0.8s var(--ease-premium);
 }
 .pc-card:hover .pc-card__img {
@@ -1853,6 +1866,7 @@ video {
 
 .pc-card__body {
   padding: 1.25rem 0 0;
+  text-align: center;
 }
 
 .pc-card__name {
